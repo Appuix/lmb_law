@@ -1,4 +1,5 @@
 /* Reset */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -46,6 +47,105 @@ table {
 
 /* End of Reset */
 
-body {
-	
+body, body button {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body p{
+	font-family: 'Times New Roman', serif;
+	text-align: left;
+	font-size: 20px;
+	white-space: pre-wrap;
+	line-height: 26px;
+}
+
+span.italic{
+	font-style: italic;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 178px;
+}
+
+header .burger_button{
+	text-transform: uppercase;
+	color: #00476f;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 26px 30px 26px 74px;
+	background-color: #9cd8fc;
+	cursor: pointer;
+}
+
+header .burger_button::before{
+	content: url('../img/global/burger_icon.png');
+	position: absolute;
+	margin-left: -45px;
+	margin-top: -2px; 
+}
+
+header a{
+	text-decoration: none;
+}
+
+header .slide_nav{
+	position: fixed;
+	width: 178px;
+	background-color: #9cd8fc;
+	right: -178px;
+	height: 100%;
+}
+
+header .slide_nav li{
+	padding: 20px 10px;
+	border-top: 1px solid #00476f;
+	color: #fffff8;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+header .slide_nav a:last-child li{
+	border-bottom: 1px solid #00476f;
+}
+
+header .slide_nav li:hover{
+	background-color: #00476f;
+}
+
+button{
+	cursor: pointer;
+}
+
+button.cta_btn{
+	background-color: transparent;
+	border: 3px solid #fffff8;
+	color: #fffff8;
+	padding: 20px;
+	text-transform: uppercase;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+button.cta_btn:hover{
+	background-color: #fffff8;
+	color: #52ade1;
+}
+
+button.blue_cta_btn{
+	background-color: transparent;
+	border: 3px solid #52ade1;
+	color: #00476f;
+	padding: 20px;
+	text-transform: uppercase;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+button.blue_cta_btn:hover{
+	background-color: #52ade1;
+	color: #fffff8;
 }

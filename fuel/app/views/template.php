@@ -8,8 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title><?= isset($title) ? $title : null ?></title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <?= Casset::render_css() ?>
         <script src="http://code.jquery.com/jquery.min.js" type="text/javascript"></script>
     </head>

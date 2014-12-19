@@ -46,7 +46,8 @@ class Controller_App extends Controller_Base
 	private function _init_assets()
 	{
 		Casset::css('main.css');
-		// Casset::css('normalize.css');
-		// Casset::css('foundation.css');
+		
+		Casset::js('jquery-1.11.2.js');
+		Casset::js('main.js');
 	}
 }

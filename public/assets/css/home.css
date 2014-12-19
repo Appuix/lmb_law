@@ -1,0 +1,258 @@
+div.header{
+	background-color: #52ade1;
+	top: 0;
+	width: 100%;
+}
+
+div.header .logo_with_text{
+	background: url('../img/logos/logo_with_text.png') no-repeat;
+	background-position: 0 55px;
+	margin: 0 auto;
+	padding: 55px 0;
+	width: 269px;
+	height: 162px;
+}
+
+div.header .slogan{
+	margin: 0 auto;
+	text-align: center;
+	padding: 55px 0 85px;
+}
+
+div.header h1{
+	color: #00476f;
+	font-size: 51px;
+}
+
+div.header h2{
+	color: #fffff8;
+	font-size: 42px;
+}
+
+div.header h1,
+div.header h2{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 0;
+}
+
+div.header .cta{
+	text-align: center;
+	padding: 0 0 130px;
+}
+
+div.header .down_arrow{
+	background: url('../img/global/down_arrow.png') no-repeat;
+	margin: 0 auto;
+	width: 29px;
+	height: 16px;
+	padding: 0 0 35px;
+}
+
+#content > div{
+	width: 100%;
+	text-align: center;
+	padding: 115px 0 60px;
+}
+
+#content > div.blue{
+	background-color: #52ade1;
+}
+
+#content > div > h3{
+	text-transform: uppercase;
+	border-bottom: 6px solid #a0d7f5;
+	margin: 0 auto;
+	display: inline;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#content > div.white > h3::before{
+	content: url('../img/logos/logo_blue_icon.png');
+}
+
+#content > div.blue > h3::before{
+	content: url('../img/logos/logo_white_icon.png');
+}
+
+#content > div > h3::before{
+	position: absolute;
+	left: 47%;
+	left: calc(50% - 28px);
+	margin-top: -75px;
+}
+
+#content > div.white > h3{
+	color: #000000;
+}
+
+#content > div.blue > h3{
+	color: #fffff8;
+}
+
+#content #the_difference > div{
+	padding: 90px 10px 80px;
+}
+
+#content #the_difference > div > div.text_list{
+	width: 45%;
+	max-width: 600px;
+	min-width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#content #the_difference > div > div.text_list h6{
+	background: url('../img/global/list_diamond_marker.png') no-repeat;
+	width: 52px;
+	height: 52px;
+	text-align: center;
+	line-height: 52px;
+	margin: 0 auto;
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#content #the_difference > div > div.text_list h4{
+	font-size: 30px;
+	font-weight: bold;
+	padding: 20px 0;
+}
+
+#content #the_difference > div > div.text_list .text_box{
+	padding: 20px 10px;
+}
+
+#content #multi_lingual h4{
+	font-size: 24px;
+	font-weight: bold;
+	padding: 45px 10px;
+	white-space: pre-wrap;
+	line-height: 40px;
+}
+
+#content #why_choose_us p{
+	text-align: center;
+	padding: 45px 10px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#content #about_us h4{
+	font-size: 24px;
+	font-weight: bold;
+	padding: 45px 10px;
+	white-space: pre-wrap;
+	line-height: 40px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#content #why_choose_us h4{
+	font-size: 24px;
+	font-weight: bold;
+	padding: 45px 10px;
+	white-space: pre-wrap;
+	line-height: 40px;
+}
+
+#content #practice_areas .list{
+	padding: 45px 10px;
+	max-width: 795px;
+	margin: 0 auto;
+}
+
+#content #practice_areas .list .outer_box{
+	border: 2px solid #a0d7f5;
+	display: inline-block;
+	width: 248px;
+	height: 148px;
+	vertical-align: top;
+	margin: 5px;
+	cursor: pointer;
+}
+
+#content #practice_areas .list .outer_box:last-child{
+	max-width: 781px;
+	min-width: 248px;
+	width: 98%;
+}
+
+#content #practice_areas .list .outer_box:hover .inner_box{
+	background-color: #52ade1;
+}
+
+#content #practice_areas .list .inner_box{
+	border: 2px solid #fffff8;
+	background-color: #a0d7f5;
+	height: 144px;
+}
+
+#content #practice_areas .list .inner_box h4{
+	color: #fffff8;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	padding: 15px 0 25px 15px;
+}
+
+#content #practice_areas .list .inner_box h4 span{
+	font-weight: normal;
+}
+
+#content #practice_areas .list .inner_box div{
+
+}
+
+#content #practice_areas .list .inner_box h5{
+	color: #fffff8;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: right;
+	padding: 0 10px 12px 0;
+}
+
+#content #practice_areas .list .inner_box h5 span{
+	text-align: left;
+}
+
+#content #our_process > div{
+	padding: 50px 0 0;
+}
+
+#content #our_process div.step{
+	display: inline-block;
+	width: 300px;
+	padding: 10px;
+}
+
+#content #our_process h4{
+	color: #fffff8;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: left;
+}
+
+#content #our_process p{
+	color: #fffff8;
+	font-size: 20px;
+	margin: 10px 0;
+}
+
+#content .content_cta h3{
+	font-size: 30px;
+	font-weight: bold;
+	color: #00476f;
+	padding-bottom: 30px;
+}
+
+#content #the_retainer > div,
+#content #about_us > div{
+	padding: 50px 10px 0;
+	max-width: 960px;
+	margin: 0 auto;
+}

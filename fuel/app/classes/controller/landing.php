@@ -4,6 +4,7 @@ class Controller_Landing extends Controller_App
 {
 	public function action_index()
 	{
+		Casset::css('home.css');
 		$this->template->content = View::forge('landing/index');
 	}
 
