@@ -5,9 +5,21 @@ Main = {
 			$('header .slide_nav').animate({
 				'right': '-178px'
 			}, 250);
+			$('body').animate({
+				'margin-left': '0'
+			}, 250);
+			$('#light_box_window.default').animate({
+				opacity: 0
+			}, 250).hide();
 		}else{
 			$('header .slide_nav').animate({
 				'right': '0'
+			}, 250);
+			$('body').animate({
+				'margin-left': '-178px'
+			}, 250);
+			$('#light_box_window.default').show().animate({
+				opacity: 1
 			}, 250);
 		}
 	},
