@@ -96,9 +96,7 @@ Main = {
 		$('#light_box_window.default').animate({
 			opacity: 0
 		}, 750, function(){
-			$('#light_box_window.default').hide().css({
-				opacity: 1
-			});
+			$('#light_box_window.default').hide()
 		});
 	},
 
@@ -111,9 +109,7 @@ Main = {
 		$('#light_box_window.contracts').animate({
 			opacity: 0
 		}, 750, function(){
-			$('#light_box_window.contracts').hide().css({
-				opacity: 1
-			});
+			$('#light_box_window.contracts').hide()
 		});
 	},
 

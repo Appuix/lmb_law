@@ -265,3 +265,24 @@ div.header .down_arrow{
 	max-width: 960px;
 	margin: 0 auto;
 }
+
+@media only screen and (max-width: 959px){
+	div.header h2{
+		font-size: 33px;
+	}
+	div.header h1{
+		font-size: 40px;
+	}
+}
+
+@media only screen and (max-width: 739px){
+	div.header h2{
+		font-size: 24px;
+	}
+	div.header h1{
+		font-size: 27px;
+	}
+	button.cta_btn{
+		font-size: 17px;
+	}
+}
