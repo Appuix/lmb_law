@@ -2,6 +2,8 @@ div.header{
 	background-color: #52ade1;
 	top: 0;
 	width: 100%;
+	position: fixed;
+	z-index: -1;
 }
 
 div.header .logo_with_text{
@@ -50,6 +52,12 @@ div.header .down_arrow{
 	padding: 0 0 35px;
 }
 
+#content{
+	background-color: #fffff8;
+	margin-top: 760px;
+	padding-bottom: 300px;
+}
+
 #content > div{
 	width: 100%;
 	text-align: center;
@@ -58,6 +66,10 @@ div.header .down_arrow{
 
 #content > div.blue{
 	background-color: #52ade1;
+}
+
+#content > div.white{
+	background-color: #fffff8;
 }
 
 #content > div > h3{
@@ -162,7 +174,7 @@ div.header .down_arrow{
 
 #content #practice_areas .list{
 	padding: 45px 10px;
-	max-width: 795px;
+	max-width: 799px;
 	margin: 0 auto;
 }
 
@@ -172,12 +184,12 @@ div.header .down_arrow{
 	width: 248px;
 	height: 148px;
 	vertical-align: top;
-	margin: 5px;
+	margin: 7px 5px;
 	cursor: pointer;
 }
 
 #content #practice_areas .list .outer_box:last-child{
-	max-width: 781px;
+	max-width: 782px;
 	min-width: 248px;
 	width: 98%;
 }
@@ -190,6 +202,8 @@ div.header .down_arrow{
 	border: 2px solid #fffff8;
 	background-color: #a0d7f5;
 	height: 144px;
+	overflow: hidden;
+	clear: both;
 }
 
 #content #practice_areas .list .inner_box h4{
@@ -197,27 +211,21 @@ div.header .down_arrow{
 	font-size: 32px;
 	font-weight: bold;
 	text-align: left;
-	padding: 15px 0 25px 15px;
-}
-
-#content #practice_areas .list .inner_box h4 span{
-	font-weight: normal;
-}
-
-#content #practice_areas .list .inner_box div{
-
+	padding: 15px 0 35px 15px;
 }
 
 #content #practice_areas .list .inner_box h5{
 	color: #fffff8;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: bold;
-	text-align: right;
-	padding: 0 10px 12px 0;
+	text-align: left;
+	padding: 0 20px 0 0;
+	text-transform: uppercase;
+	float: right;
 }
 
-#content #practice_areas .list .inner_box h5 span{
-	text-align: left;
+#content #practice_areas .list .inner_box h4 span{
+	font-weight: normal;
 }
 
 #content #our_process > div{
@@ -228,6 +236,7 @@ div.header .down_arrow{
 	display: inline-block;
 	width: 300px;
 	padding: 10px;
+	vertical-align: top;
 }
 
 #content #our_process h4{

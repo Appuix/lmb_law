@@ -1,0 +1,143 @@
+{
+  "header":
+  {
+    "slogan_h2": "We ask the right questions &amp; we listen.",
+    "slogan_h1": "We are your personal attorney."
+  },
+  "the_difference" :
+  {
+    "title" : "The Difference",
+    "id" : "the_difference",
+    "background" : "white",
+    "list_left" : [
+      {
+        "number" : "1",
+        "title" : "Commitment to Legal Help",
+        "text": "When people call an attorney, they don’t want to speak to a person who is not an attorney about their case specifics. We don’t believe in putting any barriers between your case and the lawyer that will be representing you.  When you call into the firm, you will speak with or receive a call back from a licensed attorney."
+      },
+      {
+        "number" : "2",
+        "title" : "Commitment to Personal Service",
+        "text": "Choosing an attorney is a very important decision. People come to attorneys in times of need and deserve personal attention and time.  No matter what the legal matter is, we work with our clients to deliver service that is not typical of a law firm.  Our firm is built on our clients’ satisfaction, and we want to be a law firm you are proud to have representing you in all your times of need."
+      }
+    ],
+    "list_right" : [
+      {
+        "number" : "3",
+        "title" : "Commitment to Excellence",
+        "text": "Legal work demands an eye for detail, an in-depth understanding of the law and how it can be appropriately applied.  Whether it’s in writing or in front of a judge and jury, our firm will provide the in depth and thorough analysis and arguments that even the most demanding judges respond to."
+      },
+      {
+        "number" : "4",
+        "title" : "Commitment to Communication",
+        "text": "One of the most frustrating elements for legal clients is a lack of communication.  We take tremendous pride in making sure all of our clientele are thoroughly communicated with on all relevant issues pertaining to their case.  Don’t spend your time worrying about the unknown.  You can rest easy knowing that you have a competent attorney working for you."
+      }
+    ],
+    "cta" : {
+        "title" : "Can We Help You With Your Legal Notice?",
+        "button" : "Contact Us Now",
+        "button_link" : "#about_us"
+    }
+  },
+  "multi_lingual" :
+  {
+    "title" : "Multi-Lingual",
+    "id" : "multi_lingual",
+    "background" : "white",
+    "text" : "We offer the ability to support translations and court representatives <br>in all major languages.  On site we provide language coverage for <br>Spanish, French, Creole and English."
+  },
+  "why_choose_us" : 
+  {
+    "title" : "Why Choose Us?",
+    "id" : "why_choose_us",
+    "background" : "white",
+    "text" : "The LMB Law Firm was formed to help do the right things for the right people.  We only choose cases and clients that we believe in, and would be proud to represent in or out of a court of law.  We spend the time to understand each client and each case, as both aspects are important to us.  We look at each client as an integral part of the practice, and hope to represent you and those who you care about in any time of need.  We strive every day to be the best we can be…to be <span class='italic'>your personal attorney.</span>"
+  },
+  "practice_areas" : 
+  {
+    "title" : "Practice Areas",
+    "id" : "practice_areas",
+    "background" : "white",
+    "list" : [
+      {
+        "class" : "business_disputes",
+        "number" : "01<span>/</span>",
+        "title" : "Business<br>Disputes",
+        "content" : "The LMB Law Firm was formed to help do the right things for the right people.  We only choose cases and clients that we believe in, and would be proud to represent in or out of a court of law.  We spend the time to understand each client and each case, as both aspects are important to us.  We look at each client as an integral part of the practice, and hope to represent you and those who you care about in any time of need.  We strive every day to be the best we can be…to be <span class='italic'>your personal attorney.</span>"
+      },
+      {
+        "class" : "comercial_litigation",
+        "number" : "02<span>/</span>",
+        "title" : "Comercial<br>Litigation",
+        "content" : "The LMB Law Firm was formed to help do the right things for the right people.  We only choose cases and clients that we believe in, and would be proud to represent in or out of a court of law.  We spend the time to understand each client and each case, as both aspects are important to us.  We look at each client as an integral part of the practice, and hope to represent you and those who you care about in any time of need.  We strive every day to be the best we can be…to be <span class='italic'>your personal attorney.</span>"
+      },
+      {
+        "class" : "condominium_and_homeowners",
+        "number" : "03<span>/</span>",
+        "title" : "Condominium<br>&amp; Homeowners",
+        "content" : "The LMB Law Firm was formed to help do the right things for the right people.  We only choose cases and clients that we believe in, and would be proud to represent in or out of a court of law.  We spend the time to understand each client and each case, as both aspects are important to us.  We look at each client as an integral part of the practice, and hope to represent you and those who you care about in any time of need.  We strive every day to be the best we can be…to be <span class='italic'>your personal attorney.</span>"
+      },
+      {
+        "class" : "foreclosure",
+        "number" : "04<span>/</span>",
+        "title" : "<br>Foreclosure",
+        "content" : ""
+      },
+      {
+        "class" : "labor_law",
+        "number" : "05<span>/</span>",
+        "title" : "Labor<br>Law",
+        "content" : ""
+      },
+      {
+        "class" : "products_liability",
+        "number" : "06<span>/</span>",
+        "title" : "Products<br>Liability",
+        "content" : ""
+      },
+      {
+        "class" : "contracts",
+        "number" : "07<span>/</span>",
+        "title" : "<br>Contracts",
+        "content" : ""
+      }
+    ]
+  },
+  "our_process" :
+  {
+    "title" : "Our Process",
+    "id" : "our_process",
+    "background" : "blue",
+    "list" : [
+      {
+        "number" : "01/",
+        "title" : "Discovery",
+        "text" : "We set an appointment and discuss your case and go through all necessary documentation (either face to face or Skype).  At this point we will either: take your case, direct your case to another attorney or let you know if we do not believe you have a case.<br><br><span class='italic'>We are now ready to move forward!</span>"
+      },
+      {
+        "number" : "02/",
+        "title" : "Resolution",
+        "text" : "What to bring to a consultation: any relevant documentation pertaining to your case including receipts, letters, pictures, insurance information, contracts, leases, any court documents that you may already have, just to name a few."
+      },
+      {
+        "number" : "03/",
+        "title" : "Execution",
+        "text" : "What to expect from an initial consultation:  During your initial consultation, we will start by listening to the issue you are facing. We will then determine whether the facts as you present them to us support a case. It is possible that the facts do not suffice to initiate a cause of action. It is also possible that another attorney is better suited to address this particular issue."
+      }
+    ]
+  },
+  "the_retainer" :
+  {
+    "title" : "The Retainer",
+    "id" : "the_retainer",
+    "background" : "white",
+    "text" : "Should you wish to retain our services, we work out a retainer and the contract where you officially hire the firm to represent you.  Retainers and rates vary by case complexity and type.  <br><br>In the event we think we can provide valuable legal service to you, the consultation will then entail us explaining the formation of the attorney-client relationship, should you choose to engage the firm: the representation agreement. In that agreement, we lay out all the terms of our representation for you. We explain what our fees are, what your rights are, how and when we bill for our time and other relevant details to the attorney-client relationship. We will explain all the clauses so you understand how the attorney-client relationship will unfold.  <br><br><span class='italic'>You have now hired the firm!</span><br><br>Please gather all documentation and email to laila@lmblawfirm.com"
+  },
+  "about_us" :
+  {
+    "title" : "About Us",
+    "id" : "about_us",
+    "background" : "white",
+    "text" : "From foreclosure matters to business and contract disputes, commercial litigation, homeowners or condominium disputes, products liability cases and labor law matters, our goal is to give a voice to our clients and to vigorously defend their interests. We do everything with our client’s best interest in mind. As such, we do not offer standard advice. We listen to each case individually and use our knowledge and creativity to form a course of action for each unique situation."
+  }
+}

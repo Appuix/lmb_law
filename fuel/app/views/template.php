@@ -9,6 +9,9 @@
         <title><?= isset($title) ? $title : null ?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" 
+            type="image/png" 
+            href="<?= Uri::create('assets/img/logos/favicon_32.png'); ?>" />
         <?= Casset::render_css() ?>
         <script src="http://code.jquery.com/jquery.min.js" type="text/javascript"></script>
     </head>
@@ -22,6 +25,10 @@
 		<?= isset($content) ? $content : null ?>
 		
 		<?= isset($footer) ? $footer : null ?>
+
+        <div id="light_box_window" class="default">
+            <div id="light_box"></div>
+        </div>
 
 		<?= Casset::render_js() ?>
 <!--
