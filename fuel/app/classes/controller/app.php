@@ -23,7 +23,12 @@ class Controller_App extends Controller_Base
 
 	private function _init_footer()
 	{
-		$this->template->footer = View::forge('footer/footer');
+		$map_key = 'AIzaSyDxw6vCmfIqO_oEZsTSsmwDKKRZ09o023c';
+		
+		$this->template->footer = View::forge('footer/footer', array(
+			'map_key' => $map_key,
+			)
+		);
 	}
 
 

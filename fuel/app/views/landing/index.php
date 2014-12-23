@@ -52,14 +52,24 @@
 			<h3><?= $content->practice_areas->title ?></h3>
 			<div class="list">
 				<?php foreach ($content->practice_areas->list as $practice): ?>
-					<div class="outer_box <?= $practice->class ?>" data-index="<?= $practice->content ?>">
-						<div class="inner_box">
-							<h4><?= $practice->number ?></h4>
-							<h5><?= $practice->title ?></h5>
+					<div class="box_container">
+						<div class="box">
+							<div class="outer_box <?= $practice->class ?>">
+								<div class="inner_box front">
+									<h4><?= $practice->number ?></h4>
+									<h5><?= $practice->title ?></h5>
+								</div>
+								<div class="inner_box back">
+									<span class='close_button'>X</span>
+									<h4><?= $practice->title ?></h4>
+									<p><?= $practice->content ?></p>
+								</div>
+							</div>
 						</div>
 					</div>
 				<?php endforeach; ?>
 			</div>
+			<div id="light_box_window" class="practice_areas"></div>
 		</div>
 		<div id="our_process" class="<?= $content->our_process->background ?>">
 			<h3><?= $content->our_process->title ?></h3>
@@ -82,8 +92,13 @@
 		<div id="about_us" class="<?= $content->about_us->background ?>">
 			<h3><?= $content->about_us->title ?></h3>
 			<div>
-				<p><?= $content->about_us->text ?></p>
-			<div>
+				<div class="img">
+					<?= Asset::img("global/".$content->about_us->img) ?>
+				</div>
+				<div class="text">
+					<p><?= $content->about_us->text ?></p>
+				<div>
+			</div>
 		</div>
 	</div>
 </div>

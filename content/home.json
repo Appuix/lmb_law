@@ -34,7 +34,7 @@
       }
     ],
     "cta" : {
-        "title" : "Can We Help You With Your Legal Notice?",
+        "title" : "Can We Help You With Your Legal Needs?",
         "button" : "Contact Us Now",
         "button_link" : "#about_us"
     }
@@ -63,41 +63,53 @@
         "class" : "business_disputes",
         "number" : "01<span>/</span>",
         "title" : "Business<br>Disputes",
-        "content" : "The LMB Law Firm was formed to help do the right things for the right people.  We only choose cases and clients that we believe in, and would be proud to represent in or out of a court of law.  We spend the time to understand each client and each case, as both aspects are important to us.  We look at each client as an integral part of the practice, and hope to represent you and those who you care about in any time of need.  We strive every day to be the best we can be…to be <span class='italic'>your personal attorney.</span>"
+        "content" : "During our first consultation once we have been retained, expect us to go over in detail, whether your contract is written or verbal, whether you have a copy of the contract if it is written, the sequence of events that led to the dispute, any correspondence between the parties to the contract and any third party that is relevant to the dispute and any document that supports damages you may be incurring."
       },
       {
         "class" : "comercial_litigation",
         "number" : "02<span>/</span>",
         "title" : "Comercial<br>Litigation",
-        "content" : "The LMB Law Firm was formed to help do the right things for the right people.  We only choose cases and clients that we believe in, and would be proud to represent in or out of a court of law.  We spend the time to understand each client and each case, as both aspects are important to us.  We look at each client as an integral part of the practice, and hope to represent you and those who you care about in any time of need.  We strive every day to be the best we can be…to be <span class='italic'>your personal attorney.</span>"
+        "content" : ""
       },
       {
         "class" : "condominium_and_homeowners",
         "number" : "03<span>/</span>",
         "title" : "Condominium<br>&amp; Homeowners",
-        "content" : "The LMB Law Firm was formed to help do the right things for the right people.  We only choose cases and clients that we believe in, and would be proud to represent in or out of a court of law.  We spend the time to understand each client and each case, as both aspects are important to us.  We look at each client as an integral part of the practice, and hope to represent you and those who you care about in any time of need.  We strive every day to be the best we can be…to be <span class='italic'>your personal attorney.</span>"
+        "content" : "During our first consultation once we have been retained, expect us to go over in detail, your governing documents (these are the covenants and regulations that apply to your association), any correspondence you have received from your community association, your payment history to the association if the issue is non-payment of assessments, any pictures you have of the condition at issue on your property if it the issue is a covenant violation and any proposals you are considering as a resolution to be presented to the association on your behalf."
       },
       {
         "class" : "foreclosure",
         "number" : "04<span>/</span>",
         "title" : "<br>Foreclosure",
-        "content" : ""
+        "content" : "During our first consultation once we have been retained, expect us to go over in detail, your note and mortgage, your payment history, any communication you have had with your financial institution, any refinancing you may have started, any short sale offer your may considering, and any court papers you have received such as a Summons and Complaint. We will also go over your current situation to see what alternative solution suits your situation the best."
       },
       {
         "class" : "labor_law",
         "number" : "05<span>/</span>",
         "title" : "Labor<br>Law",
-        "content" : ""
+        "content" : "During our first consultation once we have been retained, expect us to go over in detail the circumstances surrounding your hiring or failure to hire, any employment contract you may have, any documentation you may have concerning the alleged conduct, your schedule and pay history. We also assist clients with any questions on their healthcare benefits pursuant to the Affordable Care Act, aka “Obamacare.”"
       },
       {
         "class" : "products_liability",
         "number" : "06<span>/</span>",
         "title" : "Products<br>Liability",
+        "content" : "During our first consultation once we have been retained, expect us to go over in detail, the product at issue, when you acquired it, when and how the injury took place, what documentation you have, whether you have medical records pertaining to the injury, whether you have evidence of the injury in the form of remaining product or pictures, and any communication you have had with the store where if was purchased or the company that manufactured the product in question."
+      },
+      {
+        "class" : "bankruptcy",
+        "number" : "07<span>/</span>",
+        "title" : "<br>Bankruptcy",
+        "content" : "During our first consultation once we have been retained, expect us to go over, in detail, your current financial situation, any tax liabilities, mortgage, all your expenses, medical bills, and any other particular circumstances your and your family are facing. We will then assess which Chapter election is more appropriate for you."
+      },
+      {
+        "class" : "legal_services",
+        "number" : "08<span>/</span>",
+        "title" : "Legal<br>Services",
         "content" : ""
       },
       {
         "class" : "contracts",
-        "number" : "07<span>/</span>",
+        "number" : "09<span>/</span>",
         "title" : "<br>Contracts",
         "content" : ""
       }
@@ -135,9 +147,10 @@
   },
   "about_us" :
   {
-    "title" : "About Us",
+    "title" : "About Laila Archer",
     "id" : "about_us",
     "background" : "white",
-    "text" : "From foreclosure matters to business and contract disputes, commercial litigation, homeowners or condominium disputes, products liability cases and labor law matters, our goal is to give a voice to our clients and to vigorously defend their interests. We do everything with our client’s best interest in mind. As such, we do not offer standard advice. We listen to each case individually and use our knowledge and creativity to form a course of action for each unique situation."
+    "img" : "laila_archer.png",
+    "text" : "Attorney Archer focuses her practice on foreclosures, business and contract disputes, commercial litigation, condominium and homeowners association, products liability and labor law. Ms. Archer has always believed in the power of education. She earned her Bachelor’s degree in Linguistics from the University of Florida and graduated Magna Cum Laude. She then went on to obtains her Juris Doctorate from Barry University School of Law, where once again, she graduated Magna Cum Laude. Ms. Archer has beena very active presence during her law school career. She served as a Teaching Assistant for Legal Research and Writing and a Dean’s Writing Fellow. In addition, she was an Editor of her law school’s Law Review and served as the Director of Interschool Competitions for the Moot Court Honors Board at Barry University School of Law. Ms. Archer has also had the opportunity to sharpen her legal  advocacy skills as she competed nationally on several occasions for Barry University School of Law’s Moot Court Team and was voted the Best Newcomer Advocate of her class. She uses these skills every time she steps in the courtroom to effectively argue her clients’ cases.Ms. Archer is fluent in French, Haitian-Creoleand Spanish. She is a member of the Florida and Orange County Bar Associations."
   }
 }

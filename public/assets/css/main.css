@@ -68,7 +68,7 @@ header{
 	top: 0;
 	right: 0;
 	width: 178px;
-	z-index: 1;
+	z-index: 99999;
 }
 
 header .burger_button{
@@ -163,6 +163,11 @@ button.blue_cta_btn:hover{
 	background-color: rgba(0,30,45,.7);
 	display: none;
 	opacity: 0;
+	z-index: 9999;
+}
+
+#light_box_window.default{
+	z-index: 99998;
 }
 
 #light_box_window #light_box{
@@ -199,6 +204,77 @@ button.blue_cta_btn:hover{
 	padding: 20px 10px;
 }
 
+#content #about_us{
+	padding-bottom: 300px;
+}
+
+footer{
+	width: 100%;
+	/*position: absolute;
+	z-index: 2;
+	top: calc(1000px + 1230px + 140px);*/
+}
+
+footer .map{
+	border-top: 3px solid #52ade1;
+	background-color: #fffff8;
+	overflow: hidden;
+}
+
+footer .map img{
+	width: 100%;
+}
+
+footer .nav{
+	border-top: 3px solid #52ade1;
+	border-bottom: 3px solid #52ade1;
+	background-color: #fffff8;
+	margin-top: -3px;
+	overflow: scroll;
+}
+
+footer .nav ul{
+	/*width: 960px;*/
+	width: 1010px;
+	margin: 0 auto;
+}
+
+footer .nav a{
+	padding: 15px 6px;
+	color: #000000;
+}
+
+footer .nav a:first-child{
+	padding-left: 0;
+}
+
+footer .nav a:last-child{
+	padding-right: 0;
+}
+
+footer .nav a:last-child li{
+	text-decoration: underline;
+}
+
+footer .nav a:last-child li img{
+	margin-left: 10px;
+}
+
+footer .nav a:hover{
+	color: #52ade1;
+}
+
+footer .nav li{
+	display: inline-block;
+	line-height: 47px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+footer .nav li img{
+	vertical-align: middle;
+}
+
 @media only screen and (max-width: 959px){
 	header{
 		width: auto;
@@ -208,7 +284,7 @@ button.blue_cta_btn:hover{
 		right: 0;
 	}
 	header .burger_button::before{
-		content: url('../img/global/burger_white_icon.png');
+		content: url('../img/global/burger_mobile_icon.png');
 		margin-left: -30px;
 	}
 	header .burger_button h6{
