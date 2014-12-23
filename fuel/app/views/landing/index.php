@@ -47,6 +47,10 @@
 		<div id="why_choose_us" class="<?= $content->why_choose_us->background ?>">
 			<h3><?= $content->why_choose_us->title ?></h3>
 			<p><?= $content->why_choose_us->text ?></p>
+			<div class="content_cta">
+				<h3><?= $content->the_difference->cta->title ?></h3>
+				<a href="<?= $content->the_difference->cta->button_link ?>"><button class="blue_cta_btn"><?= $content->the_difference->cta->button ?></button></a>
+			</div>
 		</div>
 		<div id="practice_areas" class="<?= $content->practice_areas->background ?>">
 			<h3><?= $content->practice_areas->title ?></h3>
@@ -109,7 +113,11 @@
 				</div>
 				<div class="text">
 					<p><?= $content->about_us->text ?></p>
-				<div>
+				</div>
+			</div>
+			<div class="content_cta">
+				<h3><?= $content->the_difference->cta->title ?></h3>
+				<a href="<?= $content->the_difference->cta->button_link ?>"><button class="blue_cta_btn"><?= $content->the_difference->cta->button ?></button></a>
 			</div>
 		</div>
 	</div>

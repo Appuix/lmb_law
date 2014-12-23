@@ -1,7 +1,7 @@
 <footer>
 	<div class="map">
 		<iframe width="100%" height="235px" frameborder="0" style="border:0"
-src="https://www.google.com/maps/embed/v1/place?q=orlando%2C%20fl&key=<?= $map_key ?>"></iframe>
+src="https://www.google.com/maps/embed/v1/place?q=<?= $map_address ?>&key=<?= $map_key ?>"></iframe>
 	</div>
 	<div class="nav">
 		<ul>

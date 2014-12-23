@@ -24,9 +24,11 @@ class Controller_App extends Controller_Base
 	private function _init_footer()
 	{
 		$map_key = 'AIzaSyDxw6vCmfIqO_oEZsTSsmwDKKRZ09o023c';
-		
+		$map_address = '4767 New Broad Street Orlando, FL 32814';
+
 		$this->template->footer = View::forge('footer/footer', array(
 			'map_key' => $map_key,
+			'map_address' => $map_address,
 			)
 		);
 	}

@@ -294,6 +294,13 @@ div.header .down_arrow{
 	margin: 10px 0;
 }
 
+#content .content_cta{
+	margin: 0 auto;
+	padding: 90px 10px 80px;
+	border-top: 1px solid #00476f;
+	max-width: 960px;
+}
+
 #content .content_cta h3{
 	font-size: 30px;
 	font-weight: bold;
@@ -308,7 +315,7 @@ div.header .down_arrow{
 }
 
 #content #about_us > div{
-	padding: 50px 10px 0;
+	padding: 50px 10px 50px;
 	max-width: 1080px;
 	margin: 0 auto;
 }
