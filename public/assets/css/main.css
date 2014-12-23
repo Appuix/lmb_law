@@ -241,7 +241,7 @@ footer .nav ul{
 
 footer .nav a{
 	padding: 15px 6px;
-	color: #000000;
+	color: #52ade1;
 }
 
 footer .nav a:first-child{
@@ -261,7 +261,7 @@ footer .nav a:last-child li img{
 }
 
 footer .nav a:hover{
-	color: #52ade1;
+	color: #00476f;
 }
 
 footer .nav li{
