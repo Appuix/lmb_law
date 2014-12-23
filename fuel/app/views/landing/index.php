@@ -78,6 +78,9 @@
 									<?php else:?>
 										<h4><?= $practice->title ?></h4>
 										<p><?= $practice->content ?></p>
+										<div class="btn">
+											<button class="cta_btn">Contact Us Now</button>
+										</div>
 									<?php endif;?>
 								</div>
 							</div>

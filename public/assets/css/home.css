@@ -270,6 +270,14 @@ div.header .down_arrow{
 	font-weight: normal;
 }
 
+#content #practice_areas .list .inner_box .btn{
+	text-align: center;
+}
+
+#content #practice_areas .list .inner_box button{
+	margin: 50px auto;
+}
+
 #content #our_process > div{
 	padding: 50px 0 0;
 }
@@ -296,9 +304,14 @@ div.header .down_arrow{
 
 #content .content_cta{
 	margin: 0 auto;
-	padding: 90px 10px 80px;
+	padding: 90px 10px 90px !important;
 	border-top: 1px solid #00476f;
+	border-bottom: 1px solid #00476f;
 	max-width: 960px;
+}
+
+#content > div:last-child .content_cta{
+	border-bottom: none;
 }
 
 #content .content_cta h3{
