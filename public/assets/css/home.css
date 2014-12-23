@@ -203,28 +203,9 @@ div.header .down_arrow{
 	transition: all .5s linear;
 }
 
-/*#content #practice_areas .list .outer_box:last-child{
-	max-width: 782px;
-	min-width: 248px;
-	width: 98%;
-}*/
-
-/*#content #practice_areas .list .outer_box:hover{
-	transform: rotateY(180deg);
-	box-shadow: -5px 5px 5px #aaa;
-	position: absolute;
-	text-align: left;
-	z-index: 1;
-	min-width: 300px;
-	max-width: 960px;
-	width: 100%;
-	margin: 20px auto;
-}*/
-
-/*#content #practice_areas .list .outer_box:hover .inner_box{
-	height: 100%;
-	width: 100%;
-}*/
+#content #practice_areas .list .outer_box:hover .inner_box.front{
+	background-color: #52ade1;
+}
 
 #content #practice_areas .list .inner_box{
 	border: 2px solid #fffff8;
