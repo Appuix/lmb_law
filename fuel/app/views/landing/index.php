@@ -62,7 +62,7 @@
 								<div class="inner_box back">
 									<span class='close_button'>X</span>
 									<?php if($practice->class == "contracts"): ?>
-										<h4>Why so serious?</h4>
+										<h4><?= $practice->title ?></h4>
 								    	<?= Form::open('') ?>
 								    		<p>First Name:</p>
 								    		<input type="text" placeholder="First Name">
