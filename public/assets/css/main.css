@@ -59,6 +59,14 @@ body p{
 	line-height: 26px;
 }
 
+body p a{
+	color: #52ade1;
+}
+
+body p a:hover{
+	color: #00476f;
+}
+
 span.italic{
 	font-style: italic;
 }
@@ -204,7 +212,7 @@ button.blue_cta_btn:hover{
 	padding: 20px 10px;
 }
 
-#content #about_us{
+#content #disclaimer{
 	padding-bottom: 100px;
 }
 

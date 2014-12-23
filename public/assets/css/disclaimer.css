@@ -1,0 +1,29 @@
+#disclaimer{
+	margin: 0 auto;
+	max-width: 600px;
+	min-width: 300px;
+	padding: 50px 10px;
+	text-align: center;
+}
+
+h1{
+	text-transform: uppercase;
+	border-bottom: 6px solid #a0d7f5;
+	margin: 0 auto;
+	display: inline;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+p{
+	margin: 50px 0;
+}
+
+p span.bold{
+	font-weight: bold;
+}
+
+p span.underline{
+	text-decoration: underline;
+}

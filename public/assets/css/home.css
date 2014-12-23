@@ -323,7 +323,8 @@ div.header .down_arrow{
 	padding-bottom: 30px;
 }
 
-#content #the_retainer > div{
+#content #the_retainer > div,
+#content #disclaimer > div{
 	padding: 50px 10px 0;
 	max-width: 960px;
 	margin: 0 auto;
@@ -351,6 +352,16 @@ div.header .down_arrow{
 
 #content #about_us .text{
 	max-width: 700px;
+}
+
+#content #disclaimer p{
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#content #disclaimer p .title{
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 @media only screen and (max-width: 959px){

@@ -130,5 +130,10 @@
 				<a href="<?= $content->the_difference->cta->button_link ?>"><button class="blue_cta_btn"><?= $content->the_difference->cta->button ?></button></a>
 			</div>
 		</div>
+		<div id="disclaimer">
+			<div>
+				<p><span class="title"><?= $content->disclaimer->title ?>:</span> <?= $content->disclaimer->text ?> <?= Html::anchor('disclaimer', 'Read full disclaimer'); ?></p>
+			</div>
+		</div>
 	</div>
 </div>
