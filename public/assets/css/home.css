@@ -81,19 +81,21 @@ div.header .down_arrow{
 	text-transform: uppercase;
 }
 
-#content > div.white > h3::before{
-	content: url('../img/logos/logo_blue_icon.png');
+#content > div.white > h3.marker{
+	background: url('../img/logos/logo_blue_icon.png') no-repeat;
 }
 
-#content > div.blue > h3::before{
-	content: url('../img/logos/logo_white_icon.png');
+#content > div.blue > h3.marker{
+	background: url('../img/logos/logo_white_icon.png') no-repeat;
 }
 
-#content > div > h3::before{
-	position: absolute;
-	left: 47%;
-	left: calc(50% - 28px);
-	margin-top: -75px;
+#content > div > h3.marker{
+	width: 56px;
+	height: 56px;
+	display: block;
+	margin: 0 auto;
+	border-bottom: none;
+	padding-bottom: 25px
 }
 
 #content > div.white > h3{

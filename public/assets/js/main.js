@@ -108,6 +108,7 @@ Main = {
 
 	init: function(){
 		$('header .burger_button').click(this.toggle_nav);
+		$('header nav a').click(this.toggle_nav);
 		$('#practice_areas .box').click(this.show_practice_area);
 		$('#practice_areas .box .inner_box.back').click(function(){return false});
 		$('#light_box_window.contracts #light_box .close_button').click(this.close_contracts_form);

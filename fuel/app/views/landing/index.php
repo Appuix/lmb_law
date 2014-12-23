@@ -14,6 +14,7 @@
 	</div>
 	<div id="content">
 		<div id="the_difference" class="<?= $content->the_difference->background ?>">
+			<h3 class="marker"></h3>
 			<h3><?= $content->the_difference->title ?></h3>
 			<div>
 				<div class="text_list">
@@ -41,10 +42,12 @@
 			</div>
 		</div>
 		<div id="multi_lingual" class="<?= $content->multi_lingual->background ?>">
+			<h3 class="marker"></h3>
 			<h3><?= $content->multi_lingual->title ?></h3>
 			<h4><?= $content->multi_lingual->text ?></h4>
 		</div>
 		<div id="why_choose_us" class="<?= $content->why_choose_us->background ?>">
+			<h3 class="marker"></h3>
 			<h3><?= $content->why_choose_us->title ?></h3>
 			<p><?= $content->why_choose_us->text ?></p>
 			<div class="content_cta">
@@ -53,6 +56,7 @@
 			</div>
 		</div>
 		<div id="practice_areas" class="<?= $content->practice_areas->background ?>">
+			<h3 class="marker"></h3>
 			<h3><?= $content->practice_areas->title ?></h3>
 			<div class="list">
 				<?php foreach ($content->practice_areas->list as $practice): ?>
@@ -91,6 +95,7 @@
 			<div id="light_box_window" class="practice_areas"></div>
 		</div>
 		<div id="our_process" class="<?= $content->our_process->background ?>">
+			<h3 class="marker"></h3>
 			<h3><?= $content->our_process->title ?></h3>
 			<div>
 				<?php foreach ($content->our_process->list as $process) : ?>
@@ -103,12 +108,14 @@
 			</div>
 		</div>
 		<div id="the_retainer" class="<?= $content->about_us->background ?>">
+			<h3 class="marker"></h3>
 			<h3><?= $content->the_retainer->title ?></h3>
 			<div>
 				<p><?= $content->the_retainer->text ?></p>
 			</div>
 		</div>
 		<div id="about_us" class="<?= $content->about_us->background ?>">
+			<h3 class="marker"></h3>
 			<h3><?= $content->about_us->title ?></h3>
 			<div>
 				<div class="img">
