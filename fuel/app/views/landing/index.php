@@ -61,8 +61,20 @@
 								</div>
 								<div class="inner_box back">
 									<span class='close_button'>X</span>
-									<h4><?= $practice->title ?></h4>
-									<p><?= $practice->content ?></p>
+									<?php if($practice->class == "contracts"): ?>
+										<h4>Why so serious?</h4>
+								    	<?= Form::open('') ?>
+								    		<p>First Name:</p>
+								    		<input type="text" placeholder="First Name">
+								    		<p>Last Name:</p>
+								    		<input type="text" placeholder="Last Name">
+								    		<p>Message:</p>
+								    		<textarea placeholder="Tell me about it"></textarea>
+								    	<?= Form::close() ?>
+									<?php else:?>
+										<h4><?= $practice->title ?></h4>
+										<p><?= $practice->content ?></p>
+									<?php endif;?>
 								</div>
 							</div>
 						</div>
@@ -101,19 +113,4 @@
 			</div>
 		</div>
 	</div>
-</div>
-
-<div id="light_box_window" class="contracts">
-    <div id="light_box">
-    	<span class="close_button">X</span>
-    	<h2>Why so serious?</h2>
-    	<?= Form::open('') ?>
-    		<p>First Name:</p>
-    		<input type="text" placeholder="First Name">
-    		<p>Last Name:</p>
-    		<input type="text" placeholder="Last Name">
-    		<p>Message:</p>
-    		<textarea placeholder="Tell me about it"></textarea>
-    	<?= Form::close() ?>
-    </div>
 </div>

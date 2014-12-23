@@ -41,7 +41,6 @@ Main = {
 	
 		self.parent().parent().css({
 			'transform': 'rotateY(0deg)',
-			'box-shadow': 'none',
 			'position': 'initial',
 			'min-width': '248px',
 			'z-index': 0,
@@ -56,7 +55,7 @@ Main = {
 
 	show_practice_area: function(e){
 		var self = $(this),
-			height = self.find('.inner_box.back h4').height() + self.find('.inner_box.back p').height() + 50 + "px",
+			height = self.find('.inner_box.back h4').height() + self.find('.inner_box.back p').height() + self.find('.inner_box.back input').height() + self.find('.inner_box.back textarea').height() + 50 + "px",
 			left = Number($('#practice_areas .list').css('margin-left').slice(0,-2)) + 10 + "px";
 
 		self.find('.close_button').click(Main.close_practice_area);
@@ -76,7 +75,6 @@ Main = {
 		
 			self.find('.outer_box').css({
 				'transform': 'rotateY(180deg)',
-				'box-shadow': '-5px 5px 5px #aaa',
 				'position': 'absolute',
 				'z-index': 99995,
 				'min-width': '300px',
