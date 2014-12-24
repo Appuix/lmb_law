@@ -312,6 +312,17 @@ div.header .down_arrow{
 	max-width: 960px;
 }
 
+#content .content_cta h6{
+	display: inline-block;
+	font-size: 21px;
+	font-weight: bold;
+	color: #00476f;
+}
+
+#content .content_cta h6:nth-child(3){
+	padding: 0 37px;
+}
+
 #content > div:last-child .content_cta{
 	border-bottom: none;
 }
@@ -326,8 +337,12 @@ div.header .down_arrow{
 #content #the_retainer > div,
 #content #disclaimer > div{
 	padding: 50px 10px 0;
-	max-width: 960px;
+	max-width: 800px;
 	margin: 0 auto;
+}
+
+#content #disclaimer{
+	padding-top: 0;
 }
 
 #content #about_us > div{
@@ -354,6 +369,17 @@ div.header .down_arrow{
 	max-width: 700px;
 }
 
+#content #about_us .laila_archer .info{
+	margin-top: 23px;
+}
+
+#content #about_us .laila_archer h6{
+	font-size: 18px;
+	text-align: left;
+	font-weight: bold;
+	color: #00476f;
+}
+
 #content #disclaimer p{
 	font-size: 12px;
 	line-height: 18px;
@@ -361,6 +387,225 @@ div.header .down_arrow{
 
 #content #disclaimer p .title{
 	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* Contact Us */
+
+#contact_us{
+	background-color: #52ade1;
+	padding: 0 10px;
+	position: fixed;
+	width: 100%;
+	height: 0;
+	top: -100%;
+	left: 0;
+	z-index: 99998;
+	overflow: hidden;
+}
+
+#contact_us .back_link,
+#contact_us .close_link{
+	border-bottom: 3px solid #ffffff;
+	color: #ffffff;
+	display: inline-block;
+	margin-left: 35px;
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+#contact_us .back_link::before{
+	content: url('../img/global/back_icon.png') no-repeat;
+	position: absolute;
+	margin-left: -35px;
+}
+
+#contact_us .close_link::before{
+	content: url('../img/global/close_icon.png') no-repeat;
+	position: absolute;
+	margin-left: -35px;
+}
+
+#contact_us .logo_with_text{
+	background: url('../img/logos/logo_with_text.png') no-repeat;
+	margin: 0 auto;
+	width: 269px;
+	height: 162px;
+	padding-bottom: 95px;
+}
+
+#contact_us > div{
+	margin: 0 auto;
+	position: relative;
+}
+
+#contact_us .form_header{
+	text-align: center;
+	text-transform: uppercase;
+	max-width: 1000px;
+	padding-bottom: 75px;
+}
+
+#contact_us .close_link_container{
+	text-align: center;
+}
+
+#contact_us .form{
+	max-width: 740px;
+	margin: 0 auto;
+}
+
+#contact_us .form_header h3{
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffffff;
+	border-bottom: 6px solid #a2d7f3;
+	display: inline-block;
+	margin-bottom: 40px;
+	padding-bottom: 5px;
+}
+
+#contact_us .form_header h2{
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#contact_us .form_header h2{
+	color: #ffffff;
+}
+
+#contact_us .form_header h2:last-child{
+	color: #00476f;
+}
+
+#contact_us .form h4{
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 15px 0 6px;
+}
+
+#contact_us .form > div{
+	margin: 3px;
+}
+
+#contact_us .form_input{
+	max-width: 360px;
+	width: 100%;
+	display: inline-block;
+	margin: 0 3px;
+}
+
+#contact_us input,
+#contact_us textarea{
+	border: 3px solid #ffffff;
+	background-color: transparent;
+	font-size: 20px;
+	color: #ffffff;
+	outline: none;
+	padding: 10px;
+}
+
+#contact_us input:focus,
+#contact_us textarea:focus{
+	border: 3px solid #00476f;
+}
+
+#contact_us .form_input input[type="text"],
+#contact_us .form_input input[type="email"]{
+	max-width: 334px;
+	width: 100%;
+}
+
+#contact_us textarea{
+	resize: none;
+	max-width: 708px;
+	width: 100%;
+	height: 246px;
+}
+
+#contact_us .form_input input[type="phone"]{
+	text-align: center;
+	max-width: 74px;
+	width: 100%;
+	display: inline-block;
+}
+
+#contact_us .form_input input[type="phone"]:nth-child(3){
+	margin: 0 13px;
+}
+
+#contact_us .form_input input[type="phone"]:last-child{
+	max-width: 108px;
+	width: 100%;
+}
+
+#contact_us .form_button{
+	text-align: center;
+	padding: 40px 0;
+}
+
+#contact_us .form_button button{
+	background-color: #00476f;
+	padding: 25px 40px;
+	color: #ffffff;
+	text-transform: uppercase;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#contact_us .form_button button:hover{
+	border: 3px solid #ffffff;
+	padding: 22px 37px;
+}
+
+#contact_us .flash{
+	max-width: 750px;
+	width: 100%;
+	border: 3px solid #ffffff;
+	color: #ffffff;
+	margin-bottom: 55px;
+}
+
+#contact_us .flash .symbol{
+	text-align: center;
+}
+
+#contact_us .flash .message{
+	border-left: 3px solid #ffffff;
+}
+
+#contact_us .flash .symbol,
+#contact_us .flash .message{
+	padding: 40px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#contact_us .flash .symbol h6,
+#contact_us .flash .message h6{
+	font-weight: bold;
+}
+
+#contact_us .flash .symbol h6{
+	font-size: 28px;
+}
+
+#contact_us .flash .message h6{
+	font-size: 24px;
+	line-height: 26px;
+}
+
+#contact_us .flash .symbol h6,
+#contact_us .flash .message h6 span.italic{
+	font-style: italic;
+}
+
+#contact_us .flash .message h6:last-child{
 	text-transform: uppercase;
 }
 

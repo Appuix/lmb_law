@@ -1,3 +1,4 @@
+<?= isset($contact_us) ? $contact_us : null ?>
 <div id="page">
 	<div class="header">
 		<div class="logo_with_text">
@@ -7,7 +8,7 @@
 			<h1><?= $content->header->slogan_h1 ?></h1>
 		</div>
 		<div class="cta">
-			<a href="#the_difference"><button class="cta_btn">What makes us different?</button></a>
+			<button class="cta_btn the_difference">What makes us different?</button>
 		</div>
 		<div class="down_arrow">
 		</div>
@@ -37,8 +38,8 @@
 				</div>
 			</div>
 			<div class="content_cta">
-				<h3><?= $content->the_difference->cta->title ?></h3>
-				<a href="<?= $content->the_difference->cta->button_link ?>"><button class="blue_cta_btn"><?= $content->the_difference->cta->button ?></button></a>
+				<h3><?= $content->contact->cta->title ?></h3>
+				<h6>CALL: 407.792.2958</h6><h6>or</h6><button class="blue_cta_btn contact_us"><?= $content->contact->cta->button ?></button>
 			</div>
 		</div>
 		<div id="multi_lingual" class="<?= $content->multi_lingual->background ?>">
@@ -51,8 +52,8 @@
 			<h3><?= $content->why_choose_us->title ?></h3>
 			<p><?= $content->why_choose_us->text ?></p>
 			<div class="content_cta">
-				<h3><?= $content->the_difference->cta->title ?></h3>
-				<a href="<?= $content->the_difference->cta->button_link ?>"><button class="blue_cta_btn"><?= $content->the_difference->cta->button ?></button></a>
+				<h3><?= $content->contact->cta->title ?></h3>
+				<h6>CALL: 407.792.2958</h6><h6>or</h6><button class="blue_cta_btn contact_us"><?= $content->contact->cta->button ?></button>
 			</div>
 		</div>
 		<div id="practice_areas" class="<?= $content->practice_areas->background ?>">
@@ -118,16 +119,23 @@
 			<h3 class="marker"></h3>
 			<h3><?= $content->about_us->title ?></h3>
 			<div>
-				<div class="img">
-					<?= Asset::img("global/".$content->about_us->img) ?>
+				<div class="laila_archer">
+					<div class="img">
+						<?= Asset::img("global/".$content->about_us->img) ?>
+					</div>
+					<div class="info">
+						<?php foreach ($content->about_us->data as $data): ?>
+							<h6><?= $data ?></h6>
+						<?php endforeach; ?>
+					</div>
 				</div>
 				<div class="text">
 					<p><?= $content->about_us->text ?></p>
 				</div>
 			</div>
 			<div class="content_cta">
-				<h3><?= $content->the_difference->cta->title ?></h3>
-				<a href="<?= $content->the_difference->cta->button_link ?>"><button class="blue_cta_btn"><?= $content->the_difference->cta->button ?></button></a>
+				<h3><?= $content->contact->cta->title ?></h3>
+				<h6>CALL: 407.792.2958</h6><h6>or</h6><button class="blue_cta_btn contact_us"><?= $content->contact->cta->button ?></button>
 			</div>
 		</div>
 		<div id="disclaimer">

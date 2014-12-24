@@ -3,10 +3,13 @@ Main = {
 	toggle_nav: function(e){
 		if($('header .slide_nav').css('right') == '0px'){
 			$('header .slide_nav').animate({
-				'right': '-178px'
+				'right': '-250px'
+			}, 250);
+			$('header').animate({
+				'right': '-72px'
 			}, 250);
 			$('#content > div > h3::before').animate({
-				'margin-left': '-178px'
+				'margin-left': '-250px'
 			}, 250);
 			$('body').animate({
 				'margin-left': '0'
@@ -18,11 +21,14 @@ Main = {
 			$('header .slide_nav').animate({
 				'right': '0'
 			}, 250);
+			$('header').animate({
+				'right': '0'
+			}, 250);
 			$('#content > div > h3::before').animate({
 				'margin-left': '0'
 			}, 250);
 			$('body').animate({
-				'margin-left': '-178px'
+				'margin-left': '-250px'
 			}, 250);
 			$('#light_box_window.default').show().animate({
 				opacity: 1
@@ -99,11 +105,33 @@ Main = {
 	},
 
 	during_resize: function(e){
-		var left = Number($('#practice_areas .list').css('margin-left').slice(0,-2)) + 10 + "px";
+		if($('#practice_areas .list').length){
+			var left = Number($('#practice_areas .list').css('margin-left').slice(0,-2)) + 10 + "px";
 
-		$('#practice_areas .box.flipped').css({
-			'left': left,
-		})
+			$('#practice_areas .box.flipped').css({
+				'left': left,
+			})
+		}
+	},
+
+	scroll_to_difference: function(e){
+		$('html, body').scrollTo("#the_difference");
+	},
+
+	slide_contact_us: function(e){
+		if($('#contact_us').css('top') == '0px'){
+			$('#contact_us').animate({
+				top: '-100%',
+				height: '0',
+				padding: '0 10px',
+			}, 1500);
+		}else{
+			$('#contact_us').animate({
+				top: 0,
+				height: '100%',
+				padding: '75px 10px',
+			}, 1500);
+		}
 	},
 
 	init: function(){
@@ -112,6 +140,9 @@ Main = {
 		$('#practice_areas .box').click(this.show_practice_area);
 		$('#practice_areas .box .inner_box.back').click(function(){return false});
 		$('#light_box_window.contracts #light_box .close_button').click(this.close_contracts_form);
+		$('.cta_btn.the_difference').click(this.scroll_to_difference);
+		$('.blue_cta_btn.contact_us').click(this.slide_contact_us);
+		$('#contact_us .back_link').click(this.slide_contact_us);
 		window.onresize = function(){
 			Main.during_resize();
 		};

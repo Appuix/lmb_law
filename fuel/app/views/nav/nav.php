@@ -1,4 +1,5 @@
 <header>
+	<div class="phone"><h6>Call: 407.792.2958</h6></div>
 	<div class="burger_button"><h6>Menu</h6></div>
 	<nav class="slide_nav">
 		<ul>

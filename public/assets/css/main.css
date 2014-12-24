@@ -61,6 +61,7 @@ body p{
 
 body p a{
 	color: #52ade1;
+	text-transform: uppercase;
 }
 
 body p a:hover{
@@ -74,9 +75,22 @@ span.italic{
 header{
 	position: fixed;
 	top: 0;
-	right: 0;
-	width: 178px;
+	right: -72px;
+	width: 250px;
 	z-index: 99999;
+}
+
+header .phone{
+	position: absolute;
+}
+
+header .phone h6{
+	font-size: 24px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-left: -100%;
+	padding: 0 25px 0 0;
+	line-height: 76px;
 }
 
 header .burger_button{
@@ -102,9 +116,9 @@ header a{
 
 header .slide_nav{
 	position: fixed;
-	width: 178px;
+	width: 250px;
 	background-color: #9cd8fc;
-	right: -178px;
+	right: -250px;
 	height: 100%;
 	padding-top: 76px;
 	top: 0;

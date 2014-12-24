@@ -102,9 +102,9 @@
         "content" : "During our first consultation once we have been retained, expect us to go over, in detail, your current financial situation, any tax liabilities, mortgage, all your expenses, medical bills, and any other particular circumstances your and your family are facing. We will then assess which Chapter election is more appropriate for you."
       },
       {
-        "class" : "arbitration",
+        "class" : "coverage_work",
         "number" : "08<span>/</span>",
-        "title" : "<br>Arbitration",
+        "title" : "Coverage<br>Work",
         "content" : ""
       },
       {
@@ -151,6 +151,11 @@
     "id" : "about_us",
     "background" : "white",
     "img" : "laila_archer.png",
+    "data" : [
+      "Laila Archer, Attorney",
+      "Phone: 407.792.2958",
+      "Email: laila@lmblawfirm.com"
+    ],
     "text" : "Attorney Archer focuses her practice on foreclosures, business and contract disputes, commercial litigation, condominium and homeowners association, products liability and labor law. Ms. Archer has always believed in the power of education. She earned her Bachelor’s degree in Linguistics from the University of Florida and graduated Magna Cum Laude. She then went on to obtains her Juris Doctorate from Barry University School of Law, where once again, she graduated Magna Cum Laude. Ms. Archer has beena very active presence during her law school career. She served as a Teaching Assistant for Legal Research and Writing and a Dean’s Writing Fellow. In addition, she was an Editor of her law school’s Law Review and served as the Director of Interschool Competitions for the Moot Court Honors Board at Barry University School of Law. Ms. Archer has also had the opportunity to sharpen her legal advocacy skills as she competed nationally on several occasions for Barry University School of Law’s Moot Court Team and was voted the Best Newcomer Advocate of her class. She uses these skills every time she steps in the courtroom to effectively argue her clients’ cases. Ms. Archer is fluent in French, Haitian-Creole and Spanish. She is a member of the Florida and Orange County Bar Associations."
   },
   "disclaimer" :
@@ -159,5 +164,13 @@
     "id" : "disclaimer",
     "background" : "white",
     "text" : "Welcome to LMB Law Firm, PLLC’s website. We ask that you please carefully review the following terms of use before using this website. By accessing or using the LMB Law Firm, PLLC website, you acknowledge that you have read, understood, and accept these terms of use."
+  },
+  "contact" :
+  {
+    "cta" : {
+        "title" : "Can We Help You With Your Legal Needs?",
+        "button" : "Contact Us Now",
+        "button_link" : "contact_us"
+    }
   }
 }

@@ -263,6 +263,7 @@ return array(
 		 	'orm',
 		 	'casset',
 		 	'sentry',
+		 	'email',
 		 ),
 
 		/**
