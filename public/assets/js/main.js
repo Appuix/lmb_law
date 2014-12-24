@@ -123,13 +123,11 @@ Main = {
 			$('#contact_us').animate({
 				top: '-100%',
 				height: '0',
-				padding: '0 10px',
 			}, 1500);
 		}else{
 			$('#contact_us').animate({
 				top: 0,
 				height: '100%',
-				padding: '75px 10px',
 			}, 1500);
 		}
 	},
