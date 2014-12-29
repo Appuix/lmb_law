@@ -83,12 +83,12 @@ Main = {
 				'margin': '0 auto',
 				'position': 'absolute',
 				'left': left,
+				'z-index': 99995,
 			}).addClass('flipped');
 		
 			self.find('.outer_box').css({
 				'transform': 'rotateY(180deg)',
 				'position': 'absolute',
-				'z-index': 99995,
 				'min-width': '300px',
 				'max-width': '960px',
 				'width': '97%',
