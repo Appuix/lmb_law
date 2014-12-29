@@ -79,6 +79,7 @@ div.header .down_arrow{
 	font-size: 30px;
 	font-weight: bold;
 	text-transform: uppercase;
+	line-height: 50px;
 }
 
 #content > div.white > h3.marker{
@@ -323,6 +324,7 @@ div.header .down_arrow{
 	font-size: 21px;
 	font-weight: bold;
 	color: #00476f;
+	margin: 0 0 25px 0;
 }
 
 #content .content_cta h6:nth-child(3){
@@ -363,8 +365,15 @@ div.header .down_arrow{
 	margin: 10px;
 }
 
+#content #about_us > div > div.laila_archer{
+	width: 100%;
+	max-width: 307px;
+	margin: 10px 0;
+}
+
 #content #about_us .img{
 	border: 3px solid #00476f;
+	overflow: hidden;
 }
 
 #content #about_us .img img{
@@ -388,6 +397,7 @@ div.header .down_arrow{
 	font-size: 18px;
 	text-align: left;
 	font-weight: bold;
+	line-height: 25px;
 	color: #00476f;
 }
 
@@ -407,7 +417,8 @@ div.header .down_arrow{
 	background-color: #52ade1;
 	padding: 20px 10px;
 	position: fixed;
-	width: 100%;
+	width: 98%;
+	width: calc(100% - 20px);
 	height: 0;
 	top: -100%;
 	left: 0;
@@ -505,7 +516,7 @@ div.header .down_arrow{
 
 #contact_us .form_input{
 	max-width: 360px;
-	width: 100%;
+	width: 90%;
 	display: inline-block;
 	margin: 0 3px;
 }
@@ -534,7 +545,7 @@ div.header .down_arrow{
 #contact_us textarea{
 	resize: none;
 	max-width: 708px;
-	width: 100%;
+	width: 96%;
 	height: 246px;
 }
 
@@ -627,16 +638,23 @@ div.header .down_arrow{
 	header .phone{
 		display: none;
 	}
-	div.header h2{
+	div.header h2,
+	#contact_us .form_header h2{
 		font-size: 33px;
 	}
 	div.header h1{
 		font-size: 40px;
 	}
+
+	#contact_us .form_input,
+	#contact_us textarea{
+		width: 90%;
+	}
 }
 
 @media only screen and (max-width: 739px){
-	div.header h2{
+	div.header h2,
+	#contact_us .form_header h2{
 		font-size: 24px;
 	}
 	div.header h1{
@@ -644,5 +662,12 @@ div.header .down_arrow{
 	}
 	button.cta_btn{
 		font-size: 17px;
+	}
+
+	#contact_us .form_input input[type="phone"]{
+		max-width: 40px;
+	}
+	#contact_us .form_input input[type="phone"]:last-child{
+		max-width: 85px;
 	}
 }
