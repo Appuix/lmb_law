@@ -127,6 +127,7 @@
 						<?php foreach ($content->about_us->data as $data): ?>
 							<h6><?= $data ?></h6>
 						<?php endforeach; ?>
+						<h6 class="email contact_us">Email: <?= $content->about_us->email ?></h6>
 					</div>
 				</div>
 				<div class="text">

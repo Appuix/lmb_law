@@ -369,6 +369,11 @@ div.header .down_arrow{
 	max-width: 700px;
 }
 
+#content #about_us .email:hover{
+	cursor: pointer;
+	color: #52ade1;
+}
+
 #content #about_us .laila_archer .info{
 	margin-top: 23px;
 }
@@ -610,6 +615,12 @@ div.header .down_arrow{
 }
 
 @media only screen and (max-width: 959px){
+	header{
+		right: 0;
+	}
+	header .phone{
+		display: none;
+	}
 	div.header h2{
 		font-size: 33px;
 	}

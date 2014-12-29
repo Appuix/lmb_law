@@ -5,9 +5,15 @@ Main = {
 			$('header .slide_nav').animate({
 				'right': '-250px'
 			}, 250);
-			$('header').animate({
-				'right': '-72px'
-			}, 250);
+			if($(window).width() <= 950){
+				$('header').animate({
+					'right': '0'
+				}, 250);
+			}else{
+				$('header').animate({
+					'right': '-72px'
+				}, 250);
+			}
 			$('#content > div > h3::before').animate({
 				'margin-left': '-250px'
 			}, 250);
@@ -141,7 +147,7 @@ Main = {
 		$('#practice_areas .box .inner_box.back').click(function(){return false});
 		$('#light_box_window.contracts #light_box .close_button').click(this.close_contracts_form);
 		$('.cta_btn.the_difference').click(this.scroll_to_difference);
-		$('.blue_cta_btn.contact_us').click(this.slide_contact_us);
+		$('.blue_cta_btn.contact_us, .email.contact_us').click(this.slide_contact_us);
 		$('#contact_us .back_link').click(this.slide_contact_us);
 		window.onresize = function(){
 			Main.during_resize();

@@ -10,6 +10,7 @@
 			<?= HTML::anchor('http://lmblawfirm.com/#our_process', '<li>Our Process</li>'); ?>
 			<?= HTML::anchor('http://lmblawfirm.com/#the_retainer', '<li>The Retainer</li>'); ?>
 			<?= HTML::anchor('http://lmblawfirm.com/#about_us', '<li>About Us</li>'); ?>
+			<li>Call: 407.792.2958</li>
 		</ul>
 	</nav>
 </header>
