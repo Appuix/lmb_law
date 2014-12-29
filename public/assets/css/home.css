@@ -193,6 +193,7 @@ div.header .down_arrow{
 	width: 248px;
 	height: 148px;
 	perspective: 1000;
+	-webkit-perspective: 1000;
 }
 
 #content #practice_areas .list .outer_box{
@@ -202,7 +203,9 @@ div.header .down_arrow{
 	vertical-align: top;
 	cursor: pointer;
 	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
 	transition: all .5s linear;
+	-webkit-transition: all .5s linear;
 }
 
 #content #practice_areas .list .outer_box:hover .inner_box.front{
@@ -223,7 +226,9 @@ div.header .down_arrow{
 }
 
 #content #practice_areas .list .inner_box.front{
+	width: 98%;
 	width: calc(100% - 4px);
+	height: 98%;
 	height: calc(100% - 4px);
 }
 
