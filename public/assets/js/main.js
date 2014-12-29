@@ -157,7 +157,7 @@ Main = {
 	},
 
 	init: function(){
-		$('header').click(this.toggle_nav);
+		$('header .burger_button').click(this.toggle_nav);
 		$('header nav a').click(this.toggle_nav);
 		$('#practice_areas .box').click(this.show_practice_area);
 		$('#practice_areas .box .inner_box.back').click(function(){return false});

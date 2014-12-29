@@ -101,6 +101,7 @@ header .burger_button{
 	padding: 26px 30px 26px 74px;
 	background-color: #9cd8fc;
 	cursor: pointer;
+	position: relative;
 }
 
 header .burger_button::before{
