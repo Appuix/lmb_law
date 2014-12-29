@@ -196,6 +196,8 @@ div.header .down_arrow{
 	perspective: 1000;
 	-webkit-perspective: 1000;
 	-ms-perspective: 1000;
+	-o-perspective: 1000;
+	-moz-perspective: 1000;
 }
 
 #content #practice_areas .list .outer_box{
@@ -207,9 +209,13 @@ div.header .down_arrow{
 	transform-style: preserve-3d;
 	-webkit-transform-style: preserve-3d;
 	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
 	transition: all .5s linear;
 	-webkit-transition: all .5s linear;
 	-ms-transition: all .5s linear;
+	-o-transition: all .5s linear;
+	-moz-transition: all .5s linear;
 }
 
 #content #practice_areas .list .outer_box:hover .inner_box.front{
@@ -228,6 +234,8 @@ div.header .down_arrow{
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
 }
 
 #content #practice_areas .list .inner_box.front{
@@ -242,6 +250,8 @@ div.header .down_arrow{
 	transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
 	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
 	box-sizing: border-box;
 	padding: 10px;
 	color: white;
