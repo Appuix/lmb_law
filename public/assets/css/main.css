@@ -308,6 +308,9 @@ footer .nav li img{
 	header .burger_button::before{
 		content: url('../img/global/burger_mobile_icon.png') no-repeat;
 		margin-left: -30px;
+		overflow: hidden;
+		width: 30px;
+		height: 30px;
 	}
 	header .burger_button h6{
 		opacity: 0;
