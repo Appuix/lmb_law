@@ -219,6 +219,7 @@ div.header .down_arrow{
 	width: 244px;
 	height: 144px;
 	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
 }
 
 #content #practice_areas .list .inner_box.front{
@@ -229,6 +230,7 @@ div.header .down_arrow{
 #content #practice_areas .list .inner_box.back{
 	display: block;
 	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
 	box-sizing: border-box;
 	padding: 10px;
 	color: white;
