@@ -115,7 +115,9 @@ Main = {
 	},
 
 	scroll_to_difference: function(e){
-		$('html, body').scrollTo("#the_difference");
+		$('body').animate({
+			scrollTop: $('#the_difference')[0].offsetTop,
+		}, 500);
 	},
 
 	slide_contact_us: function(e){
