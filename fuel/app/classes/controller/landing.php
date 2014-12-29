@@ -56,7 +56,7 @@ class Controller_Landing extends Controller_App
 		$post = $this->post_data('first_name', 'last_name', 'email', 'phone', 'message');
 
 		$email = Email::forge();
-		$email->from($post->email->value, "{$post->first_name->value} {$post->last_name->value} / ({$post->phone->value[0]}) {$post->phone->value[1]}-{$post->phone->value[2]}");
+		$email->from($post->email->value, "{$post->first_name->value} {$post->last_name->value} / {$post->phone->value[0]}.{$post->phone->value[1]}.{$post->phone->value[2]}");
 		$email->to('laila@lmblawfirm.com'); //laila@lmblawfirm.com
 		$email->subject('Message from lmblawfirm.com');
 		// $email->html_body(View::forge('emails/message', array('post' => $post)));
