@@ -17,8 +17,11 @@ Main = {
 			$('#content > div > h3::before').animate({
 				'margin-left': '-250px'
 			}, 250);
-			$('body').animate({
-				'margin-left': '0'
+			$('#page .header').animate({
+				'margin-right': '0'
+			}, 250);
+			$('#page').animate({
+				'margin': '0'
 			}, 250);
 			$('#light_box_window.default').animate({
 				opacity: 0
@@ -33,8 +36,11 @@ Main = {
 			$('#content > div > h3::before').animate({
 				'margin-left': '0'
 			}, 250);
-			$('body').animate({
-				'margin-left': '-250px'
+			$('#page .header').animate({
+				'margin-right': '-250px'
+			}, 250);
+			$('#page').animate({
+				'margin': '0 250px 0 -250px'
 			}, 250);
 			$('#light_box_window.default').show().animate({
 				opacity: 1
@@ -137,7 +143,7 @@ Main = {
 
 	scroll_to_difference: function(e){
 		$('body').animate({
-			scrollTop: $('#our_commitment')[0].offsetTop,
+			scrollTop: $('#multi_lingual')[0].offsetTop,
 		}, 500);
 	},
 

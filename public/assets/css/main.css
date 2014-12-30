@@ -47,6 +47,10 @@ table {
 
 /* End of Reset */
 
+html{
+	background-color: #fffff8;
+}
+
 body, body button {
 	font-family: 'Open Sans', sans-serif;
 }
