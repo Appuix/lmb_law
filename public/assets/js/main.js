@@ -129,16 +129,6 @@ Main = {
 		}
 
 		if($('header .slide_nav').css('right') == '0px'){
-			if($(window).width() <= 950){
-				$('header').animate({
-					'right': '0'
-				}, 250);
-			}else{
-				$('header').animate({
-					'right': '-72px'
-				}, 250);
-			}
-		}else{
 			$('header').animate({
 				'right': '0'
 			}, 250);
