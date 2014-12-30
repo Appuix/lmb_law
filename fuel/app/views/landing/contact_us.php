@@ -9,7 +9,7 @@
 	<div class="form_header">
 		<h3>Contact Us</h3>
 		<h2>We’d Be Honored To Be Your Personal Attorney.</h2>
-		<h2>Call us at: 407.792.2958 or Send us a Message.</h2>
+		<h1>Call us at: 407.792.2958 or Send us a Message.</h1>
 	</div>
 	<?php if(isset($flash)): ?>
 		<div class="flash">

@@ -61,15 +61,142 @@ Contact = {
 			e.keyCode != 37 && 
 			e.keyCode != 39 &&
 			third.is(':focus')){
-			if($('textarea').length > 0){
-				$('textarea').focus();
+			if($('textarea[name="message"]').length > 0){
+				$('textarea[name="message"]').focus();
 			}
 		}
+	},
+
+	validate_first_name: function(e){
+		if($('input[name="first_name"]').val() != ""){
+			return true;
+			$('input[name="first_name"]').css({
+				border: '3px solid #ffffff'
+			})
+		}else{
+			$('input[name="first_name"]').css({
+				border: '3px solid #000000'
+			})
+			return false;
+		}
+	},
+
+	validate_last_name: function(e){
+		if($('input[name="last_name"]').val() != ""){
+			return true;
+			$('input[name="last_name"]').css({
+				border: '3px solid #ffffff'
+			})
+		}else{
+			$('input[name="last_name"]').css({
+				border: '3px solid #000000'
+			})
+			return false;
+		}
+	},
+
+	validate_email: function(e){
+		if($('input[name="email"]').val() != ""){
+			return true;
+			$('input[name="email"]').css({
+				border: '3px solid #ffffff'
+			})
+		}else{
+			$('input[name="email"]').css({
+				border: '3px solid #000000'
+			})
+			return false;
+		}
+	},
+
+	validate_phone: function(e){
+		var first_valid = false,
+			second_valid = false,
+			third_valid = false;
+
+		if($($('input[name="phone[]"]')[0]).val().length == 3){
+			first_valid = true;
+			$($('input[name="phone[]"]')[0]).css({
+				border: '3px solid #ffffff'
+			})
+		}else{
+			$($('input[name="phone[]"]')[0]).css({
+				border: '3px solid #000000'
+			})
+		}
+
+		if($($('input[name="phone[]"]')[1]).val().length == 3){
+			second_valid = true;
+			$($('input[name="phone[]"]')[1]).css({
+				border: '3px solid #ffffff'
+			})
+		}else{
+			$($('input[name="phone[]"]')[1]).css({
+				border: '3px solid #000000'
+			})
+		}
+
+		if($($('input[name="phone[]"]')[2]).val().length == 4){
+			third_valid = true;
+			$($('input[name="phone[]"]')[2]).css({
+				border: '3px solid #ffffff'
+			})
+		}else{
+			$($('input[name="phone[]"]')[2]).css({
+				border: '3px solid #000000'
+			})
+		}
+
+		if(first_valid && second_valid && third_valid){
+			return true;
+		}else{
+			return false;
+		}
+	},
+
+	validate_message: function(e){
+		if($('textarea[name="message"]').val() != ""){
+			return true;
+			$('textarea[name="message"]').css({
+				border: '3px solid #ffffff'
+			})
+		}else{
+			$('textarea[name="message"]').css({
+				border: '3px solid #000000'
+			})
+			return false;
+		}
+	},
+
+	validate_on_submit: function(e){
+		var valid_first_name = Contact.validate_first_name(),
+			valid_last_name = Contact.validate_last_name(),
+			valid_email = Contact.validate_email(),
+			valid_number = Contact.validate_phone(),
+			valid_message = Contact.validate_message();
+
+		if(valid_first_name && valid_last_name && valid_email && valid_number && valid_message){
+			return true;
+		}else{
+			$('input, textarea').keyup(Contact.validate_on_key_up);
+			return false;
+		}
+
+	},
+
+	validate_on_key_up: function(e){
+		Contact.validate_first_name();
+		Contact.validate_last_name();
+		Contact.validate_email();
+		Contact.validate_phone();
+		Contact.validate_message();
 	},
 
 	init: function() {
 		$('input[type="phone"]').keydown(this.update_phone);
 		$('input[type="phone"]').keyup(this.check_phone);
+
+		$('#contact_us button[type="submit"]').click(this.validate_on_submit);
 	}
 }
 

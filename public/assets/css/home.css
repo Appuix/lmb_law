@@ -514,17 +514,16 @@ div.header .down_arrow{
 	padding-bottom: 5px;
 }
 
+#contact_us .form_header h1{
+	font-size: 39px;
+	font-weight: bold;
+	color: #00476f;
+}
+
 #contact_us .form_header h2{
 	font-size: 36px;
 	font-weight: bold;
-}
-
-#contact_us .form_header h2{
 	color: #ffffff;
-}
-
-#contact_us .form_header h2:last-child{
-	color: #00476f;
 }
 
 #contact_us .form h4{
@@ -656,13 +655,28 @@ div.header .down_arrow{
 	text-transform: uppercase;
 }
 
-@media only screen and (max-width: 959px){
-	div.header h2,
+@media only screen and (max-width: 1005px){
 	#contact_us .form_header h2{
 		font-size: 33px;
 	}
+	#contact_us .form_header h1{
+		font-size: 36px;
+	}
+}
+
+@media only screen and (max-width: 959px){
+	div.header h2{
+		font-size: 28px;
+	}
 	div.header h1{
-		font-size: 40px;
+		font-size: 31px;
+	}
+
+	#contact_us .form_header h2{
+		font-size: 26px;
+	}
+	#contact_us .form_header h1{
+		font-size: 29px;
 	}
 
 	#contact_us .form_input,
@@ -672,13 +686,20 @@ div.header .down_arrow{
 }
 
 @media only screen and (max-width: 739px){
-	div.header h2,
-	#contact_us .form_header h2{
+	div.header h2{
 		font-size: 24px;
 	}
 	div.header h1{
 		font-size: 27px;
 	}
+
+	#contact_us .form_header h2{
+		font-size: 16px;
+	}
+	#contact_us .form_header h1{
+		font-size: 18px;
+	}
+
 	button.cta_btn{
 		font-size: 17px;
 	}

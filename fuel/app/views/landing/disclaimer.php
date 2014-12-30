@@ -9,7 +9,7 @@ The content included in and made available through this website, including newsl
 
 <span class="underline bold">Please contact us directly before submitting information to us:</span>
 
-If you would like LMB Law Firm, PLLC to represent you, you must communicate the firm directly either via email at <a href="mailto:laila@lmblawfirm.com">laila@lmblawfirm.com</a> or by telephone at (407) 792-2958. We perform checks to ensure that we do not create a conflict of interest in representing our clients – present or past. Please understand that by speaking with us and giving us simply preliminary identifying information, we are able to perform the necessary conflict checks to prevent any such issues. Once we have confirmed that representing you will not pose a conflict, we will then contact you with further information.
+If you would like LMB Law Firm, PLLC to represent you, you must communicate the firm directly either via email at <span class="email contact_us">laila@lmblawfirm.com</span> or by telephone at (407) 792-2958. We perform checks to ensure that we do not create a conflict of interest in representing our clients – present or past. Please understand that by speaking with us and giving us simply preliminary identifying information, we are able to perform the necessary conflict checks to prevent any such issues. Once we have confirmed that representing you will not pose a conflict, we will then contact you with further information.
 
 Therefore, please do not submit any document or sensitive information to us until we have notified you that a conflict check has been run. 
 

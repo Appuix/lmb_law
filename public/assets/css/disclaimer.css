@@ -28,6 +28,16 @@ p span.underline{
 	text-decoration: underline;
 }
 
+p span.email{
+	color: #52ade1;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+p span.email:hover{
+	color: #00476f;
+}
+
 /* Contact Us */
 
 #contact_us{
@@ -104,6 +114,11 @@ p span.underline{
 	display: inline-block;
 	margin-bottom: 40px;
 	padding-bottom: 5px;
+}
+
+#contact_us .form_header h1{
+	font-size: 39px;
+	font-weight: bold;
 }
 
 #contact_us .form_header h2{
@@ -248,9 +263,21 @@ p span.underline{
 	text-transform: uppercase;
 }
 
-@media only screen and (max-width: 959px){
+@media only screen and (max-width: 1005px){
 	#contact_us .form_header h2{
 		font-size: 33px;
+	}
+	#contact_us .form_header h1{
+		font-size: 36px;
+	}
+}
+
+@media only screen and (max-width: 959px){
+	#contact_us .form_header h2{
+		font-size: 26px;
+	}
+	#contact_us .form_header h1{
+		font-size: 29px;
 	}
 	#contact_us .form_input,
 	#contact_us textarea{
@@ -260,7 +287,10 @@ p span.underline{
 
 @media only screen and (max-width: 739px){
 	#contact_us .form_header h2{
-		font-size: 24px;
+		font-size: 16px;
+	}
+	#contact_us .form_header h1{
+		font-size: 18px;
 	}
 	#contact_us .form_input input[type="phone"]{
 		max-width: 40px;

@@ -154,14 +154,22 @@ Main = {
 	slide_contact_us: function(e){
 		if($('#contact_us').css('top') == '0px'){
 			$('#contact_us').animate({
-				top: '-100%',
-				height: '0',
-			}, 1500);
+				left: '-100%',
+			}, 1000, function(){
+				$('#contact_us').css({
+					top: '-100%',
+					left: 0,
+					height: 0,
+				});
+				$('html').css('overflow', 'auto');
+			});
 		}else{
 			$('#contact_us').animate({
 				top: 0,
 				height: '100%',
-			}, 1500);
+			}, 1500, function(){
+				$('html').css('overflow', 'hidden');
+			});
 		}
 	},
 
