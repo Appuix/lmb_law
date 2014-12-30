@@ -165,6 +165,11 @@ Main = {
 		}
 	},
 
+	nav_contact_us: function(){
+		Main.toggle_nav();
+		Main.slide_contact_us();
+	},
+
 	init: function(){
 		$('header .burger_button').click(this.toggle_nav);
 		$('header nav a').click(this.toggle_nav);
@@ -173,6 +178,7 @@ Main = {
 		$('#light_box_window.contracts #light_box .close_button').click(this.close_contracts_form);
 		$('.cta_btn.the_difference').click(this.scroll_to_difference);
 		$('.blue_cta_btn.contact_us, .email.contact_us').click(this.slide_contact_us);
+		$('nav .contact_us').click(this.nav_contact_us);
 		$('#contact_us .back_link').click(this.slide_contact_us);
 		window.onresize = function(){
 			Main.during_resize();

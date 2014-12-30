@@ -143,6 +143,10 @@ header .slide_nav li:hover{
 	background-color: #00476f;
 }
 
+header .contact_us{
+	cursor: pointer;
+}
+
 button{
 	cursor: pointer;
 }

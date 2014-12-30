@@ -238,12 +238,12 @@ div.header .down_arrow{
 	-moz-backface-visibility: hidden;
 }
 
-/*#content #practice_areas .list .inner_box.front{
+#content #practice_areas .list .inner_box.front{
 	width: 98%;
 	width: calc(100% - 4px);
 	height: 98%;
 	height: calc(100% - 4px);
-}*/
+}
 
 #content #practice_areas .list .inner_box.back{
 	display: block;
@@ -260,12 +260,16 @@ div.header .down_arrow{
 	height: 100%;
 	background-color: #52ade1;
 	clear: both;
-	/*overflow: auto;*/
 	cursor: auto;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 	#content #practice_areas .list .inner_box.back{
+		height: auto;
+	}
+
+	#content #practice_areas .list .inner_box.front{
+		width: auto;
 		height: auto;
 	}
 }
@@ -658,6 +662,9 @@ div.header .down_arrow{
 	}
 	header .phone{
 		display: none;
+	}
+	header h6{
+		width: 0;
 	}
 	div.header h2,
 	#contact_us .form_header h2{
