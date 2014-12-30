@@ -257,6 +257,7 @@ div.header .down_arrow{
 	color: white;
 	text-align: left;
 	width: 100%;
+	height: auto;
 	height: 100%;
 	background-color: #52ade1;
 	clear: both;

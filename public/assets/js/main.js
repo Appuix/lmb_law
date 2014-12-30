@@ -49,13 +49,14 @@ Main = {
 			'height': 'auto',
 			'margin': '0',
 			'position': 'initial',
+			'z-index': 0,
+			'left': 'auto',
 		}).removeClass('flipped');
 	
 		self.parent().parent().css({
 			'transform': 'rotateY(0deg)',
 			'position': 'initial',
 			'min-width': '248px',
-			'z-index': 0,
 			'width': '248px',
 			'height': '148px',
 		});
