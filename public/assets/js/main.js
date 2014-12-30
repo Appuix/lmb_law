@@ -147,7 +147,7 @@ Main = {
 
 	scroll_to_difference: function(e){
 		$('body').animate({
-			scrollTop: $('#the_difference')[0].offsetTop,
+			scrollTop: $('#our_commitment')[0].offsetTop,
 		}, 500);
 	},
 

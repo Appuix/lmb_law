@@ -14,7 +14,7 @@
 		</div>
 	</div>
 	<div id="content">
-		<div id="the_difference" class="<?= $content->the_difference->background ?>">
+		<div id="our_commitment" class="<?= $content->the_difference->background ?>">
 			<h3 class="marker"></h3>
 			<h3><?= $content->the_difference->title ?></h3>
 			<div>

@@ -107,11 +107,11 @@ div.header .down_arrow{
 	color: #fffff8;
 }
 
-#content #the_difference > div{
+#content #our_commitment > div{
 	padding: 90px 10px 80px;
 }
 
-#content #the_difference > div > div.text_list{
+#content #our_commitment > div > div.text_list{
 	width: 45%;
 	max-width: 600px;
 	min-width: 300px;
@@ -119,7 +119,7 @@ div.header .down_arrow{
 	vertical-align: top;
 }
 
-#content #the_difference > div > div.text_list h6{
+#content #our_commitment > div > div.text_list h6{
 	background: url('../img/global/list_diamond_marker.png') no-repeat;
 	width: 52px;
 	height: 52px;
@@ -131,13 +131,13 @@ div.header .down_arrow{
 	font-weight: bold;
 }
 
-#content #the_difference > div > div.text_list h4{
+#content #our_commitment > div > div.text_list h4{
 	font-size: 30px;
 	font-weight: bold;
 	padding: 20px 0;
 }
 
-#content #the_difference > div > div.text_list .text_box{
+#content #our_commitment > div > div.text_list .text_box{
 	padding: 20px 10px;
 }
 
@@ -657,15 +657,6 @@ div.header .down_arrow{
 }
 
 @media only screen and (max-width: 959px){
-	header{
-		right: 0;
-	}
-	header .phone{
-		display: none;
-	}
-	header .burger_button h6{
-		width: 0;
-	}
 	div.header h2,
 	#contact_us .form_header h2{
 		font-size: 33px;

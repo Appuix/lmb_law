@@ -126,10 +126,14 @@ header .slide_nav{
 	z-index: -1;
 }
 
+header .slide_nav ul{
+	overflow: auto;
+}
+
 header .slide_nav li{
 	padding: 20px 10px;
 	border-top: 1px solid #00476f;
-	color: #fffff8;
+	color: #00476f;
 	font-weight: bold;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -141,6 +145,7 @@ header .slide_nav a:last-child li{
 
 header .slide_nav li:hover{
 	background-color: #00476f;
+	color: #fffff8;
 }
 
 header .contact_us{
@@ -262,7 +267,7 @@ footer .nav{
 
 footer .nav ul{
 	/*width: 960px;*/
-	width: 1010px;
+	width: 1025px;
 	margin: 0 auto;
 }
 
@@ -305,6 +310,10 @@ footer .nav li img{
 @media only screen and (max-width: 959px){
 	header{
 		width: auto;
+		right: 0;
+	}
+	header .phone{
+		display: none;
 	}
 	header .burger_button{
 		background-color: transparent;

@@ -4,23 +4,9 @@ class Controller_Landing extends Controller_App
 {
 	public function action_index()
 	{
-		if(Session::get_flash('success')){
-			$flash = Session::get_flash('success');
-			$type = 'success';
-		}else if(Session::get_flash('error')){
-			$flash = Session::get_flash('error');
-			$type = 'error';
-		}else{
-			$flash = null;
-			$type = null;
-		}
-
 		Casset::css('home.css');
 		$this->template->content = View::forge('landing/index');
-		$this->template->content->contact_us = View::forge('landing/contact_us', array(
-			'flash' => $flash,
-			'type' => $type,
-		));
+		$this->template->content->contact_us = View::forge('landing/contact_us');
 		Casset::js('contact_us.js');
 	}
 
@@ -28,6 +14,8 @@ class Controller_Landing extends Controller_App
 	{
 		Casset::css('disclaimer.css');
 		$this->template->content = View::forge('landing/disclaimer');
+		$this->template->content->contact_us = View::forge('landing/contact_us');
+		Casset::js('contact_us.js');
 	}
 
 	public function action_contact_us()

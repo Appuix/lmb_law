@@ -1,3 +1,4 @@
+<?= isset($contact_us) ? $contact_us : null ?>
 <div id="disclaimer">
 	<h1>Disclaimer:</h1>
 	<p>Welcome to LMB Law Firm, PLLC’s website. We ask that you please carefully review the following terms of use before using this website. By accessing or using the LMB Law Firm, PLLC website, you acknowledge that you have read, understood, and accept these terms of use.

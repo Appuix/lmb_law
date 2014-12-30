@@ -1,6 +1,6 @@
 <div id="contact_us">
 	<div class="header">
-		<?php if(uri::segment(1) == ''): ?>
+		<?php if(uri::segment(1) != 'contact_us'): ?>
 			<h6 class="back_link">Back</h6>
 		<?php endif; ?>
 		<div class="logo_with_text">
