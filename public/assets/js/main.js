@@ -161,14 +161,14 @@ Main = {
 					left: 0,
 					height: 0,
 				});
-				$('html').css('overflow', 'auto');
+				$('html, body').css('overflow', 'auto');
 			});
 		}else{
 			$('#contact_us').animate({
 				top: 0,
 				height: '100%',
 			}, 1500, function(){
-				$('html').css('overflow', 'hidden');
+				$('html, body').css('overflow', 'hidden');
 			});
 		}
 	},
