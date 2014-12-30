@@ -236,6 +236,7 @@ div.header .down_arrow{
 	-ms-backface-visibility: hidden;
 	-o-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
+	transform: perspective(200px) rotateX(0deg);
 }
 
 #content #practice_areas .list .inner_box.front{
@@ -247,7 +248,7 @@ div.header .down_arrow{
 
 #content #practice_areas .list .inner_box.back{
 	display: block;
-	transform: rotateY(180deg);
+	transform: perspective(200px) rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
 	-ms-transform: rotateY(180deg);
 	-o-transform: rotateY(180deg);
