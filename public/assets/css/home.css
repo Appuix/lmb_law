@@ -260,7 +260,7 @@ div.header .down_arrow{
 	height: 100%;
 	background-color: #52ade1;
 	clear: both;
-	overflow: auto;
+	/*overflow: auto;*/
 	cursor: auto;
 }
 
