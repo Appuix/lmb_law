@@ -269,8 +269,8 @@ div.header .down_arrow{
 	}
 
 	#content #practice_areas .list .inner_box.front{
-		width: auto;
-		height: auto;
+		width: 244px;
+		height: 144px;
 	}
 }
 
@@ -663,7 +663,7 @@ div.header .down_arrow{
 	header .phone{
 		display: none;
 	}
-	header h6{
+	header .burger_button h6{
 		width: 0;
 	}
 	div.header h2,
