@@ -60,6 +60,10 @@ Main = {
 			'height': '148px',
 		});
 
+		self.parent().css({
+			'backface-visibility': 'hidden',
+		});
+
 		$('#light_box_window.practice_areas').animate({
 			opacity: 0,
 		}, 250).hide();
@@ -75,7 +79,11 @@ Main = {
 		if(!self.hasClass("flipped")){
 			$('#light_box_window.practice_areas').show().animate({
 				opacity: 1,
-			}, 250);
+			}, 250, function(){
+				self.find('.outer_box .inner_box.back').css({
+					'backface-visibility': 'visible',
+				});
+			});
 
 			self.css({
 				'width': '94%',
