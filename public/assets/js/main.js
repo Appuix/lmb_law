@@ -49,7 +49,9 @@ Main = {
 	},
 
 	close_practice_area: function(e){
+		
 		var self = $(this);
+
 		self.parent().parent().parent().css({
 			'width': '248px',
 			'height': 'auto',
@@ -174,11 +176,16 @@ Main = {
 		Main.slide_contact_us();
 	},
 
+	contact_us_from_practice_area: function(){
+		Main.slide_contact_us();
+	},
+
 	init: function(){
 		$('header .burger_button').click(this.toggle_nav);
 		$('header nav a').click(this.toggle_nav);
 		$('#practice_areas .box').click(this.show_practice_area);
 		$('#practice_areas .box .inner_box.back').click(function(){return false});
+		$('#practice_areas .box .inner_box .cta_btn').click(this.contact_us_from_practice_area);
 		$('#light_box_window.contracts #light_box .close_button').click(this.close_contracts_form);
 		$('.cta_btn.the_difference').click(this.scroll_to_difference);
 		$('.blue_cta_btn.contact_us, .email.contact_us').click(this.slide_contact_us);

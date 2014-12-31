@@ -62,56 +62,56 @@
       {
         "class" : "business_disputes",
         "number" : "01<span>/</span>",
-        "title" : "Business<br>Disputes",
-        "content" : "During our first consultation once we have been retained, expect us to go over in detail, whether your contract is written or verbal, whether you have a copy of the contract if it is written, the sequence of events that led to the dispute, any correspondence between the parties to the contract and any third party that is relevant to the dispute and any document that supports damages you may be incurring."
+        "title" : "Business<br>Organization<br>and Formation",
+        "content" : "Our firm can assist you in starting your business. During our first consultation after we have been retained, expect us to go over in detail, the benefits and drawbacks of the various types of business entities, all the state and local requirements, your plan for finances and taxes and the risk mitigation measures we can take to better protect your business."
       },
       {
         "class" : "commercial_litigation",
         "number" : "02<span>/</span>",
-        "title" : "Commercial<br>Litigation",
+        "title" : "<br>Commercial<br>Litigation",
         "content" : ""
       },
       {
         "class" : "condominium_and_homeowners",
         "number" : "03<span>/</span>",
-        "title" : "Condominium<br>&amp; Homeowners",
+        "title" : "<br>Condominium<br>&amp; Homeowners",
         "content" : "During our first consultation once we have been retained, expect us to go over in detail, your governing documents (these are the covenants and regulations that apply to your association), any correspondence you have received from your community association, your payment history to the association if the issue is non-payment of assessments, any pictures you have of the condition at issue on your property if it the issue is a covenant violation and any proposals you are considering as a resolution to be presented to the association on your behalf."
       },
       {
         "class" : "foreclosure",
         "number" : "04<span>/</span>",
-        "title" : "<br>Foreclosure",
+        "title" : "<br><br>Foreclosure",
         "content" : "During our first consultation once we have been retained, expect us to go over in detail, your note and mortgage, your payment history, any communication you have had with your financial institution, any refinancing you may have started, any short sale offer your may considering, and any court papers you have received such as a Summons and Complaint. We will also go over your current situation to see what alternative solution suits your situation the best."
       },
       {
         "class" : "labor_law",
         "number" : "05<span>/</span>",
-        "title" : "Labor<br>Law",
+        "title" : "<br>Labor<br>Law",
         "content" : "During our first consultation once we have been retained, expect us to go over in detail the circumstances surrounding your hiring or failure to hire, any employment contract you may have, any documentation you may have concerning the alleged conduct, your schedule and pay history. We also assist clients with any questions on their healthcare benefits pursuant to the Affordable Care Act, aka “Obamacare.”"
       },
       {
         "class" : "products_liability",
         "number" : "06<span>/</span>",
-        "title" : "Products<br>Liability",
+        "title" : "<br>Products<br>Liability",
         "content" : "During our first consultation once we have been retained, expect us to go over in detail, the product at issue, when you acquired it, when and how the injury took place, what documentation you have, whether you have medical records pertaining to the injury, whether you have evidence of the injury in the form of remaining product or pictures, and any communication you have had with the store where if was purchased or the company that manufactured the product in question."
       },
       {
         "class" : "bankruptcy",
         "number" : "07<span>/</span>",
-        "title" : "<br>Bankruptcy",
+        "title" : "<br><br>Bankruptcy",
         "content" : "During our first consultation once we have been retained, expect us to go over, in detail, your current financial situation, any tax liabilities, mortgage, all your expenses, medical bills, and any other particular circumstances your and your family are facing. We will then assess which Chapter election is more appropriate for you."
       },
       {
         "class" : "coverage_work",
         "number" : "08<span>/</span>",
-        "title" : "Coverage<br>Work",
+        "title" : "<br>Coverage<br>Work",
         "content" : ""
       },
       {
         "class" : "contracts",
         "number" : "09<span>/</span>",
-        "title" : "<br>Contracts",
-        "content" : ""
+        "title" : "<br><br>Contracts",
+        "content" : "During our first consultation once we have been retained, expect us to go over in detail, whether your contract is written or verbal, whether you have a copy of the contract if it is written, the sequence of events that led to the dispute, any correspondence between the parties to the contract and any third party that is relevant to the dispute and any document that supports damages you may be incurring.<br><br>Our firm will also prepare contracts or review any contract you have signed or are contemplating."
       }
     ]
   },

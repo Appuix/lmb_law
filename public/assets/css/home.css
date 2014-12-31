@@ -287,7 +287,8 @@ div.header .down_arrow{
 	font-size: 32px;
 	font-weight: bold;
 	text-align: left;
-	padding: 15px 0 35px 15px;
+	padding: 15px 0 10px 15px;
+	text-transform: uppercase;
 }
 
 #content #practice_areas .list .inner_box h5{
