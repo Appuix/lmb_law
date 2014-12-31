@@ -51,6 +51,7 @@ class Controller_Landing extends Controller_App
 		$email->body($post->message->value);
 		$email->alt_body($post->message->value);
 		$email->send() ? Session::set_flash('success', "Hello <span class=italic>{$post->first_name->value}</span>,<br>Your Message Has Been Sent.<br>We will contact you within 24 Hours!") : Session::set_flash('error', "Sorry {$post->first_name->value},<br>There Seems To Be An Issue.<br>Please Try Again Later.");
+		
 		$this->redirect('contact_us');
 	}
 
