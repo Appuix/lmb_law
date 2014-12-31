@@ -291,6 +291,14 @@ div.header .down_arrow{
 	text-transform: uppercase;
 }
 
+#content #practice_areas .list .inner_box.back h4{
+	padding: 15px 0 25px 15px;
+}
+
+#content #practice_areas .list .inner_box.back p{
+	padding-left: 15px;
+}
+
 #content #practice_areas .list .inner_box h5{
 	color: #fffff8;
 	font-size: 25px;
