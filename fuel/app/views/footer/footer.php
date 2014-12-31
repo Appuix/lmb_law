@@ -12,6 +12,7 @@ src="https://www.google.com/maps/embed/v1/place?q=<?= $map_address ?>&key=<?= $m
 			<?= HTML::anchor('http://lmblawfirm.com/#our_process', '<li>Our Process</li>'); ?>
 			<?= HTML::anchor('http://lmblawfirm.com/#the_retainer', '<li>The Retainer</li>'); ?>
 			<?= HTML::anchor('http://lmblawfirm.com/#about_us', '<li>About Us</li>'); ?>
+			<?= HTML::anchor('http://blog.lmblawfirm.com/', '<li>Blog</li>'); ?>
 			<?= HTML::anchor('http://www.appuix.com', '<li>Web Design by'. Asset::img('appuix/logo.png') .'</li>'); ?>
 		</ul>
 	</div>
