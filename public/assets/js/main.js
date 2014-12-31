@@ -80,7 +80,7 @@ Main = {
 
 	show_practice_area: function(e){
 		var self = $(this),
-			height = self.find('.inner_box.back h4').height() + self.find('.inner_box.back p').height() + self.find('.inner_box.back input').height() + self.find('.inner_box.back textarea').height() + 50 + "px",
+			height = self.find('.inner_box.back h4').height() + self.find('.inner_box.back p').height() + self.find('.inner_box.back button').height() + "px",
 			left = Number($('#practice_areas .list').css('margin-left').slice(0,-2)) + 10 + "px";
 
 		self.find('.close_button').click(Main.close_practice_area);
@@ -91,6 +91,12 @@ Main = {
 			}, 250, function(){
 				self.find('.outer_box .inner_box.back').css({
 					'backface-visibility': 'visible',
+				});
+
+				height = self.find('.inner_box.back h4').height() + self.find('.inner_box.back p').height() + self.find('.inner_box.back button').height() + 200 + "px";
+
+				self.find('.outer_box').css({
+					'height': height,
 				});
 			});
 
@@ -145,7 +151,7 @@ Main = {
 
 	scroll_to_difference: function(e){
 		$('body').animate({
-			scrollTop: $('#multi_lingual')[0].offsetTop,
+			scrollTop: $('#our_commitment')[0].offsetTop,
 		}, 500);
 	},
 
