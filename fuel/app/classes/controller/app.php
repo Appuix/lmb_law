@@ -42,7 +42,7 @@ class Controller_App extends Controller_Base
 
 	private function _init_content()
 	{
-		$path = $_SERVER['SERVER_ADDR'] == '127.0.0.1' || $_SERVER['SERVER_ADDR'] == '172.16.0.119' ? $_SERVER['DOCUMENT_ROOT'] . '/lmb_law/content/' : '/var/www/lmb_law/content/';
+		$path = $_SERVER['SERVER_ADDR'] == '127.0.0.1' || $_SERVER['SERVER_ADDR'] == '172.16.0.119' ? $_SERVER['DOCUMENT_ROOT'] . '/lmblawfirm/content/' : '/var/www/lmb_law/content/';
 		$page = Uri::segment(1) ? Uri::segment(1) . '.json' : 'home.json';
 		$contents = File::read_dir($path);
 		$exist = in_array($page, $contents);
