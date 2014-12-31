@@ -409,6 +409,11 @@ div.header .down_arrow{
 	max-width: 700px;
 }
 
+#content #the_retainer .email{
+	color: #00476f;
+}
+
+#content #the_retainer .email:hover,
 #content #about_us .email:hover{
 	cursor: pointer;
 	color: #52ade1;
